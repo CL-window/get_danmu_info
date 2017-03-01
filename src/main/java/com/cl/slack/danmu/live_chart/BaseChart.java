@@ -1,13 +1,11 @@
-package com.cl.slack.danmu;
-
-import com.cl.slack.danmu.live_chart.LiveChatCallback;
+package com.cl.slack.danmu.live_chart;
 
 /**
  * Created by slack
  * on 17/2/28 下午4:54.
  */
 
-public class BaseChart {
+public abstract class BaseChart {
 
     protected LiveChatCallback mLiveChatCallback;
 

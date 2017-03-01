@@ -1,12 +1,16 @@
-package com.cl.slack.danmu;
+package com.cl.slack.danmu.live_chart.js;
 
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
+import android.util.Log;
+import android.webkit.ConsoleMessage;
 import android.webkit.JavascriptInterface;
+import android.webkit.JsResult;
+import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 
-import com.cl.slack.danmu.live_chart.LiveChatCallback;
+import com.cl.slack.danmu.live_chart.BaseChart;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -19,7 +23,7 @@ import java.lang.ref.WeakReference;
  * on 17/2/28 下午3:34.
  */
 
-public abstract class LiveJsChat extends BaseChart{
+public abstract class LiveJsChat extends BaseChart {
 
     private WeakReference<Context> mContext;
     protected String mUrl;
@@ -31,21 +35,34 @@ public abstract class LiveJsChat extends BaseChart{
 
     }
 
-    protected void initWebView(WebView webView){
+    public void initWebView(WebView webView){
         mWebView = webView;
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.addJavascriptInterface(new WebInterface(),"LiveJsChat");
+
+        mWebView.setWebChromeClient(new WebChromeClient(){
+            @Override
+            public boolean onConsoleMessage(ConsoleMessage consoleMessage) {
+                Log.i("WebView","Console Message: " + consoleMessage.message());
+                return super.onConsoleMessage(consoleMessage);
+            }
+
+            @Override
+            public boolean onJsAlert(WebView view, String url, String message, JsResult result) {
+                Log.i("WebView","onJsAlert: " + message);
+                return super.onJsAlert(view, url, message, result);
+            }
+        });
     }
 
     public void connect(String url){
         mUrl = url;
-        connectEntry();
-//        new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                connectEntry();
-//            }
-//        }).start();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                connectEntry();
+            }
+        }).start();
     }
 
     protected abstract void connectEntry();
@@ -101,7 +118,7 @@ public abstract class LiveJsChat extends BaseChart{
          */
         @JavascriptInterface
         public void onLogin(String str) {
-
+            Log.i("WebView","onlogin " + str);
         }
 
         /**
@@ -125,6 +142,7 @@ public abstract class LiveJsChat extends BaseChart{
         /**
          * 6501 : tanmu
          * 弹幕 信息暂时获取不到详情
+         *  TODO : n.iItemType.toString()
          * nick: n.sSenderNick,
          * propName: c.tanmu.propsInfo[t].propName,
          * icon: c.tanmu.propsInfo[t].propIcon,

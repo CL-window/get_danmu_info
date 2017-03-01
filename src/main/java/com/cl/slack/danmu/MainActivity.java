@@ -15,6 +15,9 @@ import com.cl.slack.danmu.live_chart.impl.LongzhuLiveChat;
 import com.cl.slack.danmu.live_chart.impl.PandaLiveChat;
 import com.cl.slack.danmu.live_chart.impl.QuanminLiveChat;
 import com.cl.slack.danmu.live_chart.impl.ZhanqiLiveChat;
+import com.cl.slack.danmu.live_chart.js.HuYaLiveJsChat;
+import com.cl.slack.danmu.live_chart.js.LiveJsChat;
+import com.cl.slack.danmu.live_chart.js.SixRoomLiveJsChat;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -77,108 +80,25 @@ public class MainActivity extends AppCompatActivity {
         clearWebView();
         mWebView = new WebView(getApplicationContext());
         mRootView.addView(mWebView);
-        mWebView.getSettings().setJavaScriptEnabled(true);
         huya.initWebView(mWebView);
-        huya.connect("http://www.huya.com/1943089759");
+        huya.connect("http://www.huya.com/aikaikai");
 
-    }
-
-    String getAssertJS(String assetName) {
-        StringBuilder sb = new StringBuilder();
-        InputStream is = null;
-        BufferedReader br = null;
-        try {
-            is = getAssets().open(assetName);
-            String line;
-            br = new BufferedReader(new InputStreamReader(is));
-            while ((line = br.readLine()) != null) {
-                sb.append(line);
-            }
-            return sb.toString();
-        } catch (IOException e) {
-            e.printStackTrace();
-            return sb.toString();
-        }finally {
-            if (br != null) {
-                try {
-                    br.close();
-                } catch (IOException e) {
-                    //
-                }
-            }
-            if (is != null) {
-                try {
-                    is.close();
-                } catch (IOException e) {
-                    //
-                }
-            }
-        }
-    }
-
-    class WebInterface{
-
-        /**
-         * 登录 的 反馈 信息
-         */
-        @JavascriptInterface
-        public void onLogin(String str) {
-            Log.i("slack","onLogin " + str);
-        }
-
-        /**
-         * userIn
-         */
-        @JavascriptInterface
-        public void onLogin() {
-            Log.i("slack","onLogin ");
-        }
-
-        /**
-         * 1400 : 聊天信息
-         * @param nick  nickname
-         * @param msg message
-         */
-        @JavascriptInterface
-        public void onGetChart(String nick,String msg) {
-            Log.i("slack","onGetChart ");
-        }
-
-        /**
-         * 6501 : tanmu
-         * 弹幕 信息暂时获取不到详情
-         * nick: n.sSenderNick,
-         * propName: c.tanmu.propsInfo[t].propName,
-         * icon: c.tanmu.propsInfo[t].propIcon,
-         * count: n.iItemCount
-         */
-        @JavascriptInterface
-        public void onGetGifts(String nick,String count) {
-            Log.i("slack","onGetGifts ");
-        }
-
-        /**
-         * 在线人数 liveCount
-         * @param count
-         */
-        @JavascriptInterface
-        public void onLiveCount(String count) {
-            Log.i("slack","onLiveCount ");
-        }
-
-        /**
-         * 用户 in
-         */
-        @JavascriptInterface
-        public void onUserIn(String nick,String action) {
-            Log.i("slack","onUserIn ");
-        }
     }
 
     public void sixjianfang(View view) {
+        SixRoomLiveJsChat sixRoom = new SixRoomLiveJsChat(this);
+        sixRoom.setLiveChatCallback(mLiveChatCallback);
 
+        clearWebView();
+        mWebView = new WebView(getApplicationContext());
+        mRootView.addView(mWebView);
+        sixRoom.initWebView(mWebView);
+        sixRoom.connect("http://v.6.cn/1366?");
     }
 
+    /**
+     * TODO : need run on ui thread
+     */
     private LiveChatCallback mLiveChatCallback = new LiveChatCallback() {
         @Override
         public void onConnected() {
@@ -257,6 +177,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        clearWebView();
         System.exit(0);
     }
 }

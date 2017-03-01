@@ -1,4 +1,4 @@
-package com.cl.slack.danmu;
+package com.cl.slack.danmu.live_chart.js;
 
 import android.content.Context;
 import android.util.Log;

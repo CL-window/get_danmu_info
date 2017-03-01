@@ -321,7 +321,7 @@ var decode2 = function(c) {
     }
     w = null;
     return g.join("")
-}
+};
 
 var decode = function(a) {
     a = a.replace(/\(|\)|\@/g, function (a) {
@@ -336,72 +336,73 @@ var decode = function(a) {
     });
     a = window.atob(a);
     return decode2(a);
-}
+};
 
 var startHeartBeat = function() {
     window.setInterval(function() {
         socket.send("command=sendmessage\r\ncontent=y8vPLwAA\r\n");
     }, 5000);
-}
+};
 
 var getUid = function(argument) {
     return Date.parse(new Date())/1000;
+};
+
+
+function sixRoomListener(roomid,address){
+    LiveJsChat.onLogin(roomid+" , "+address);
+    alert("1111111");
+    var socket = new WebSocket('ws://'+address);
+
+    socket.onopen = function(event) {
+        socket.send("command=login\r\nuid=" + getUid() + "\r\nencpass=\r\nroomid=" + roomid + "\r\n");
+        socket.onmessage = function(event) {
+            var buf = event.data;
+            var list = buf.split("\r\n");
+            var enc = false;
+            var data = {};
+            for(i=1; i<list.length-1; i++){ //去掉第一行和最后一行(空行)
+                var tmp = list[i].split("=");
+                data[tmp[0]] = tmp[1];
+            }
+            if(data.enc=="yes"){
+                data.content = decode(data.content);
+            }else{
+                try{
+                    data.content = window.atob(data.content);
+                }catch(e){ }
+            }
+
+            try{
+                data.content = JSON.parse(data.content);
+            }catch(e){ }
+
+            if(data.command=="result"){
+                //这里是客户端发消息给服务端后，服务端收到消息并返回的内容，除了登录别的不用处理
+                if(data.content=="login.success"){
+                    console.log("login suc");
+                    LiveJsChat.onLogin();
+                    //这里是登录弹幕服务器成功
+                    startHeartBeat();
+                }else{
+                    //这里可能会收到服务端的心跳
+                     console.log(data.content);
+                }
+            }
+            else if(data.command=="receivemessage"){
+                //这里是收到消息
+                console.log(data.content);
+            }else{
+                //这里会有什么我也不知道
+                console.log(data);
+            }
+
+        };
+        socket.onclose = function(event) {
+            console.log('Client notified socket has closed',event);
+        };
+    };
 }
 
-
-
-var ROOM_ID = "66914866";
-var WEBSOCKET_ADDR = "42.62.28.176:4000";
-
-var socket = new WebSocket('ws://'+WEBSOCKET_ADDR);
-
-
-socket.onopen = function(event) {
-    socket.send("command=login\r\nuid=" + getUid() + "\r\nencpass=\r\nroomid=" + ROOM_ID + "\r\n");
-    socket.onmessage = function(event) {
-        var buf = event.data;
-        var list = buf.split("\r\n");
-        var enc = false;
-        var data = {};
-        for(i=1; i<list.length-1; i++){ //去掉第一行和最后一行(空行)
-            var tmp = list[i].split("=");
-            data[tmp[0]] = tmp[1];
-        }
-        if(data.enc=="yes"){
-            data.content = decode(data.content);
-        }else{
-            try{
-                data.content = window.atob(data.content);
-            }catch(e){ }
-        }
-
-        try{
-            data.content = JSON.parse(data.content);
-        }catch(e){ }
-
-        if(data.command=="result"){
-            //这里是客户端发消息给服务端后，服务端收到消息并返回的内容，除了登录别的不用处理
-            if(data.content=="login.success"){
-                console.log("login suc");
-                //这里是登录弹幕服务器成功
-                startHeartBeat();
-            }else{
-                //这里可能会收到服务端的心跳
-                // console.log(data.content);
-            }
-        }
-        else if(data.command=="receivemessage"){
-            //这里是收到消息
-            console.log(data.content);
-        }else{
-            //这里会有什么我也不知道
-            console.log(data);
-        }
-
-    };
-    socket.onclose = function(event) {
-        console.log('Client notified socket has closed',event);
-    };
-};
 
 

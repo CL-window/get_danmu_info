@@ -1,7 +1,5 @@
 package com.cl.slack.danmu.live_chart;
 
-import com.cl.slack.danmu.BaseChart;
-
 import java.io.IOException;
 
 /**

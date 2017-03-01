@@ -5794,6 +5794,8 @@ function HuYaListener(topsid,subsid){
         console.log("daoju-", n);
         var t = n.vPropsItemList.value;
         LiveJsChat.onLogin("getPropsList size : " + t.length);
+    }),s.addListener("6210", function (n) {
+        console.log("xian chang gui bin num", n.iTotal);
     })
 
 };
