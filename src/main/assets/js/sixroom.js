@@ -3,7 +3,6 @@ enc = yes
 command = receivemessage
 content = VVHLboMwEPyXPfSEGmzjF1JUVe2lUk) NseRAwRCrYCwwaaIo) 941 JFJ72Zd3dmbXF2i6soUc0pRAAtXggnEB8guEszdvr5DTlCQQeshJpqQmXGmaQGNrxAiumNZaIbAZlwolmhJKFVlKA6KgmGvFarSVMsUsZE3vNjOEFTOvuPnbg8gwLDjKZYpW8mi5qGL8JYu5MVlTzFLIOI8IrLBVfYgauBZUa6YxXTVxoWSUOHlM0P(YsguHj9J9407ynr(XwUDOUkF4yuMhrBNrj7hltw6K6) txwGGfILnQOFFqRmCPhLf6) t8hbTDxegm4Gb1GYf3UrlKmQ(lN3HVTet(ZYtPaJuxisdicrHs89d3TcUse4l9s44bx) QXFQJ4mYKfdio8xkjyP55W8dWVvVoZ2HGa) EJMrfokf7REfJCxil1jD9foL "
 **/
-
 var a, b, c = null,
     f, e, g, k, m, l, p, n, q, u, t, v, r, w, z, y = [0, 1, 3, 7, 15, 31, 63, 127, 255, 511, 1023, 2047, 4095, 8191, 16383, 32767, 65535],
     A = [3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 23, 27, 31, 35, 43, 51, 59, 67, 83, 99, 115, 131, 163, 195, 227, 258, 0, 0],
@@ -340,69 +339,126 @@ var decode = function(a) {
 
 var startHeartBeat = function() {
     window.setInterval(function() {
+        /**console.log("send heart beat");*/
         socket.send("command=sendmessage\r\ncontent=y8vPLwAA\r\n");
     }, 5000);
 };
 
 var getUid = function(argument) {
     return Date.parse(new Date())/1000;
+
 };
 
+var socket;
 
-function sixRoomListener(roomid,address){
-    LiveJsChat.onLogin(roomid+" , "+address);
-    alert("1111111");
-    var socket = new WebSocket('ws://'+address);
+function sixRoomListener(roomId,address){
+    LiveJsChat.onLogin("sixRoomListener " + roomId + " " + address);
+    var ROOM_ID = roomId;
+    var WEBSOCKET_ADDR = address;
+
+    socket = new WebSocket('ws://'+WEBSOCKET_ADDR);
 
     socket.onopen = function(event) {
-        socket.send("command=login\r\nuid=" + getUid() + "\r\nencpass=\r\nroomid=" + roomid + "\r\n");
-        socket.onmessage = function(event) {
-            var buf = event.data;
-            var list = buf.split("\r\n");
-            var enc = false;
-            var data = {};
-            for(i=1; i<list.length-1; i++){ //去掉第一行和最后一行(空行)
-                var tmp = list[i].split("=");
-                data[tmp[0]] = tmp[1];
-            }
-            if(data.enc=="yes"){
-                data.content = decode(data.content);
-            }else{
-                try{
-                    data.content = window.atob(data.content);
-                }catch(e){ }
-            }
+        socket.send("command=login\r\nuid=" + getUid() + "\r\nencpass=\r\nroomid=" + ROOM_ID + "\r\n");
+    };
 
+    socket.onclose = function(event) {
+        console.log('Client notified socket has closed',event);
+        LiveJsChat.onLogout();
+    };
+
+    socket.onmessage = function(event) {
+
+        var buf = event.data;
+        var list = buf.split("\r\n");
+        var enc = false;
+        var data = {};
+        for(i=1; i<list.length-1; i++){
+            var tmp = list[i].split("=");
+            data[tmp[0]] = tmp[1];
+        };
+        if(data.enc=="yes"){
+            data.content = decode(data.content);
+        }else{
             try{
-                data.content = JSON.parse(data.content);
+                data.content = window.atob(data.content);
+            }catch(e){ }
+        };
+
+        console.log("all: \n" +  data.command +'\n'+ data.content);
+        if(data.command=="result"){
+
+            if(data.content=="login.success"){
+                console.log("login suc");
+                LiveJsChat.onLogin();
+                /**这里是登录弹幕服务器成功*/
+                startHeartBeat();
+            }else{
+                /** send.success 这里可能会收到服务端的心跳*/
+                /**console.log(data.content);*/
+            }
+        }
+        else if(data.command=="receivemessage"){
+            /**这里是收到消息*/
+            try{
+                var content = (JSON.parse(data.content)).content;
+                /** 聊天 chart */
+                if(content.typeID == 101){
+                    if(content.to){
+                        LiveJsChat.onGetChart(content.from, content.to, content.content);
+                    }else{
+                        LiveJsChat.onGetChart(content.from, content.content);
+                    }
+                }
+                else if(content.typeID == 201){
+                    /**礼物 信息 */
+                    var gift = content.content;
+                    LiveJsChat.onGetGifts(content.from, content.to, gift.item, gift.num);
+                }
+                else if(content.typeID == 1413){
+                    var c1413 = content.content;
+                    var len = c1413.length;
+                     /** 是个数组，可能同时有多个用户进入 */
+                    for(var i=0;i<len;i++){
+                        var cc = c1413[i];
+                        if(cc.typeID == 123){
+                            var userIn = cc.content;
+                            if(userIn.alias){
+                                LiveJsChat.onUserIn(userIn.alias, userIn.msg);
+                            }else{
+                                LiveJsChat.onUserIn(userIn.msg);
+                            }
+                        }else if(cc.typeID == 1304){
+                            /**红包 财*/
+                            LiveJsChat.onGetGiftsInSide(
+                                cc.from,
+                                "红包",
+                                "http://vr0.6rooms.com/imges/live/CSSIMG/gift/redBag.png",
+                                cc.content.num);
+                        }else if(cc.typeID == 1309){
+                            /**人气票*/
+                            LiveJsChat.onGetGiftsInSide(
+                                cc.from,
+                                "人气票",
+                                "http://vr0.6rooms.com/imges/live/CSSIMG/gift/event/gift_renqi_small_v3.png",
+                                cc.content.num);
+
+                        }
+                    }
+
+                }
+
             }catch(e){ }
 
-            if(data.command=="result"){
-                //这里是客户端发消息给服务端后，服务端收到消息并返回的内容，除了登录别的不用处理
-                if(data.content=="login.success"){
-                    console.log("login suc");
-                    LiveJsChat.onLogin();
-                    //这里是登录弹幕服务器成功
-                    startHeartBeat();
-                }else{
-                    //这里可能会收到服务端的心跳
-                     console.log(data.content);
-                }
-            }
-            else if(data.command=="receivemessage"){
-                //这里是收到消息
-                console.log(data.content);
-            }else{
-                //这里会有什么我也不知道
-                console.log(data);
-            }
+        }else{
+            /**这里会有什么我也不知道*/
+            console.log("other " + data);
+        };
 
-        };
-        socket.onclose = function(event) {
-            console.log('Client notified socket has closed',event);
-        };
     };
-}
+
+};
+
 
 
 

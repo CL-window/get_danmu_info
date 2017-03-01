@@ -2,11 +2,13 @@ package com.cl.slack.danmu;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Html;
 import android.util.Log;
 import android.view.View;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.cl.slack.danmu.live_chart.LiveChat;
 import com.cl.slack.danmu.live_chart.LiveChatCallback;
@@ -34,11 +36,22 @@ public class MainActivity extends AppCompatActivity {
     private LinearLayout mRootView;
     private WebView mWebView;
 
+    private TextView mTextView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mRootView = (LinearLayout) findViewById(R.id.activity_main);
+
+        testText();
+    }
+
+    private void testText() {
+        mTextView = (TextView) findViewById(R.id.textShow);
+//        mTextView.setText(Html.fromHtml("<a href='' class='u' user='28703263,39140558,大塘学校,,2'>“大塘学校”</a>进入房间</a>"));
+
+
     }
 
     public void douyu(View view) {
@@ -74,26 +87,24 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void huya(View view) {
-        LiveJsChat huya = new HuYaLiveJsChat(this);
-        huya.setLiveChatCallback(mLiveChatCallback);
-
         clearWebView();
         mWebView = new WebView(getApplicationContext());
         mRootView.addView(mWebView);
+        LiveJsChat huya = new HuYaLiveJsChat(this);
+        huya.setLiveChatCallback(mLiveChatCallback);
         huya.initWebView(mWebView);
         huya.connect("http://www.huya.com/aikaikai");
 
     }
 
     public void sixjianfang(View view) {
-        SixRoomLiveJsChat sixRoom = new SixRoomLiveJsChat(this);
-        sixRoom.setLiveChatCallback(mLiveChatCallback);
-
         clearWebView();
         mWebView = new WebView(getApplicationContext());
         mRootView.addView(mWebView);
+        SixRoomLiveJsChat sixRoom = new SixRoomLiveJsChat(this);
+        sixRoom.setLiveChatCallback(mLiveChatCallback);
         sixRoom.initWebView(mWebView);
-        sixRoom.connect("http://v.6.cn/1366?");
+        sixRoom.connect("http://v.6.cn/551222");
     }
 
     /**
@@ -117,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onMsg(String nickname, String content) {
-            Log.i(TAG,"onMsg...    " + nickname + " : " + content);
+            Log.i(TAG,"onMsg...    " + nickname + " : " + content + ".");
         }
 
         @Override
@@ -165,9 +176,12 @@ public class MainActivity extends AppCompatActivity {
      */
     private void clearWebView() {
         if (mWebView != null) {
+            mWebView.stopLoading();
+            mWebView.getSettings().setJavaScriptEnabled(false);
             mWebView.loadDataWithBaseURL(null, "", "text/html", "utf-8", null);
             mWebView.clearCache(true);
             mWebView.clearHistory();
+            mWebView.removeAllViews();
             mRootView.removeView(mWebView);
             mWebView.destroy();
             mWebView = null;

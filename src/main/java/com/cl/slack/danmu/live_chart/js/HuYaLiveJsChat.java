@@ -29,7 +29,7 @@ public class HuYaLiveJsChat extends LiveJsChat {
             getRoomInfo();
         }catch (Exception e){
             Log.e(TAG,e.toString());
-            onErr("get topid & subid error !");
+            onErr("连接弹幕服务器失败，解析RoomId错误!");
             return;
         }
 
@@ -42,7 +42,7 @@ public class HuYaLiveJsChat extends LiveJsChat {
                 @Override
                 public void run() {
                     mWebView.loadUrl("javascript:" + getAssertJS("js/huya.js"));//注入js函数
-                    mWebView.loadUrl("javascript:HuYaListener(" + topId + "," + subId + ")");//调用js函数
+                    mWebView.loadUrl("javascript:HuYaListener(\'" + topId + "\',\'" + subId + "\')");//调用js函数
                 }
             });
         }

@@ -5789,7 +5789,7 @@ function HuYaListener(topsid,subsid){
         LiveJsChat.onGetGifts( n.sSenderNick , n.iItemCount);
     }), s.addListener("6502", function (n) {
         console.log("6502", n);
-        LiveJsChat.huyaChartMessage("6502 : " + n);
+        LiveJsChat.onLogin("6502 : " + n);
     }), s.addListener("getPropsList", function (n) {
         console.log("daoju-", n);
         var t = n.vPropsItemList.value;

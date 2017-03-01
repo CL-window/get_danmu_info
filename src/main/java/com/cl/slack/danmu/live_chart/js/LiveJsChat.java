@@ -3,6 +3,7 @@ package com.cl.slack.danmu.live_chart.js;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
+import android.text.TextUtils;
 import android.util.Log;
 import android.webkit.ConsoleMessage;
 import android.webkit.JavascriptInterface;
@@ -74,7 +75,7 @@ public abstract class LiveJsChat extends BaseChart {
         return mContext.get();
     }
 
-    protected String getAssertJS(String assetName) {
+    String getAssertJS(String assetName) {
         StringBuilder sb = new StringBuilder();
         InputStream is = null;
         BufferedReader br = null;
@@ -88,6 +89,7 @@ public abstract class LiveJsChat extends BaseChart {
             br = new BufferedReader(new InputStreamReader(is));
             while ((line = br.readLine()) != null) {
                 sb.append(line);
+                sb.append('\n');
             }
             return sb.toString();
         } catch (IOException e) {
@@ -122,6 +124,14 @@ public abstract class LiveJsChat extends BaseChart {
         }
 
         /**
+         * 登出
+         */
+        @JavascriptInterface
+        public void onLogout() {
+            Log.i("WebView","onLogout ");
+        }
+
+        /**
          * userIn
          */
         @JavascriptInterface
@@ -139,6 +149,11 @@ public abstract class LiveJsChat extends BaseChart {
             onMsg(nick,msg);
         }
 
+        @JavascriptInterface
+        public void onGetChart(String from,String to,String msg) {
+            Log.i("WebView",from + " 对 " + to+ " 说： " +  msg);
+        }
+
         /**
          * 6501 : tanmu
          * 弹幕 信息暂时获取不到详情
@@ -151,6 +166,27 @@ public abstract class LiveJsChat extends BaseChart {
         @JavascriptInterface
         public void onGetGifts(String nick,String count) {
             onGift(nick,"","",Integer.parseInt(count),1);
+        }
+
+        /**
+         * 礼物
+         * @param from from
+         * @param to to
+         * @param itemId item id
+         * @param count count
+         */
+        @JavascriptInterface
+        public void onGetGifts(String from,String to,String itemId,String count) {
+            Log.i("WebView",from + " 送 " + to + " " +  count + " 个  " + itemId + " (id TODO)");
+        }
+
+        /**
+         * 6 room 固定 礼物 红包 之类
+         */
+        @JavascriptInterface
+        public void onGetGiftsInSide(String from, String giftName, String giftImg, int count) {
+            Log.i("WebView",from + " 送 " + " giftName: " + giftName +
+                    " giftImg: " +giftImg + " count: " + count);
         }
 
         /**
@@ -168,6 +204,11 @@ public abstract class LiveJsChat extends BaseChart {
         @JavascriptInterface
         public void onUserIn(String nick,String action) {
             onNewUserIn(nick,action);
+        }
+
+        @JavascriptInterface
+        public void onUserIn(String action) {
+            Log.i("WebView","onUserIn : " + action);
         }
     }
 

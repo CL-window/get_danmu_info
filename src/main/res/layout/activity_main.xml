@@ -9,6 +9,14 @@
     android:orientation="vertical"
     tools:context="com.cl.slack.danmu.MainActivity">
 
+    <TextView
+        android:id="@+id/textShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text=""/>
+
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
