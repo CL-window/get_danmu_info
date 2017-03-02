@@ -40,20 +40,6 @@ public abstract class LiveJsChat extends BaseChart {
         mWebView = webView;
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.addJavascriptInterface(new WebInterface(),"LiveJsChat");
-
-        mWebView.setWebChromeClient(new WebChromeClient(){
-            @Override
-            public boolean onConsoleMessage(ConsoleMessage consoleMessage) {
-                Log.i("WebView","Console Message: " + consoleMessage.message());
-                return super.onConsoleMessage(consoleMessage);
-            }
-
-            @Override
-            public boolean onJsAlert(WebView view, String url, String message, JsResult result) {
-                Log.i("WebView","onJsAlert: " + message);
-                return super.onJsAlert(view, url, message, result);
-            }
-        });
     }
 
     public void connect(String url){
@@ -196,6 +182,15 @@ public abstract class LiveJsChat extends BaseChart {
         @JavascriptInterface
         public void onLiveCount(String count) {
             onViewerCount(Integer.parseInt(count));
+        }
+
+        /**
+         * 现场贵宾 数
+         * @param count
+         */
+        @JavascriptInterface
+        public void onLiveVIPCount(String count) {
+            Log.i("WebView"," onLiveVIPCount " + count);
         }
 
         /**

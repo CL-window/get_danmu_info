@@ -5778,24 +5778,32 @@ function HuYaListener(topsid,subsid){
         console.log("<<< \u6210\u529f\u8fdb\u5165\u9891\u9053 ", n);
         LiveJsChat.onLogin();
     }), s.addListener("8006", function (n) {
-        console.log("8006", n.iAttendeeCount);
+        /**
+        console.log("8006   " + JSON.stringify(n));
+        */
         LiveJsChat.onLiveCount(n.iAttendeeCount);
     }), s.addListener("1400", function (n) {
         var t = {type: 0, nick: n.tUserInfo.sNickName, msg: n.sContent};
-        console.log("1400", t);
+        /**
+        console.log("1400   " +  JSON.stringify(n));
+        */
         LiveJsChat.onGetChart(n.tUserInfo.sNickName,n.sContent);
     }), s.addListener("6501", function (n) {
-        console.log("6501", n);
-        LiveJsChat.onGetGifts( n.sSenderNick , n.iItemCount);
+        console.log("6501   " +  JSON.stringify(n));
+        LiveJsChat.onGetGifts( n.sSenderNick ,n.sPresenterNick, n.iItemType,n.iItemCount);
     }), s.addListener("6502", function (n) {
-        console.log("6502", n);
+        console.log("6502  " +  JSON.stringify(n));
         LiveJsChat.onLogin("6502 : " + n);
     }), s.addListener("getPropsList", function (n) {
-        console.log("daoju-", n);
+        console.log("daoju- " + JSON.stringify(n));
         var t = n.vPropsItemList.value;
         LiveJsChat.onLogin("getPropsList size : " + t.length);
     }),s.addListener("6210", function (n) {
-        console.log("xian chang gui bin num", n.iTotal);
+        /**
+        console.log("6210 " + JSON.stringify(n));
+        console.log("xian chang gui bin num " + n.iTotal);
+        */
+        LiveJsChat.onLiveVIPCount(n.iTotal);
     })
 
 };

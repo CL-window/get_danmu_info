@@ -1,13 +1,10 @@
 package com.cl.slack.danmu;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.text.Html;
 import android.util.Log;
 import android.view.View;
-import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.cl.slack.danmu.live_chart.LiveChat;
@@ -21,20 +18,14 @@ import com.cl.slack.danmu.live_chart.js.HuYaLiveJsChat;
 import com.cl.slack.danmu.live_chart.js.LiveJsChat;
 import com.cl.slack.danmu.live_chart.js.SixRoomLiveJsChat;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 /**
  * WebView 需要放在一个布局上，没法脱离 view
  * @author slack
  * @time 17/2/28 下午5:45
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseWebViewActivity {
 
     private static final String TAG = "LiveChart";
-    private LinearLayout mRootView;
-    private WebView mWebView;
 
     private TextView mTextView;
 
@@ -42,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mRootView = (LinearLayout) findViewById(R.id.activity_main);
 
         testText();
     }
@@ -89,18 +79,18 @@ public class MainActivity extends AppCompatActivity {
     public void huya(View view) {
         clearWebView();
         mWebView = new WebView(getApplicationContext());
-        mRootView.addView(mWebView);
+        addWebView();
         LiveJsChat huya = new HuYaLiveJsChat(this);
         huya.setLiveChatCallback(mLiveChatCallback);
         huya.initWebView(mWebView);
-        huya.connect("http://www.huya.com/aikaikai");
+        huya.connect("http://www.huya.com/1848069776");
 
     }
 
     public void sixjianfang(View view) {
         clearWebView();
         mWebView = new WebView(getApplicationContext());
-        mRootView.addView(mWebView);
+        addWebView();
         SixRoomLiveJsChat sixRoom = new SixRoomLiveJsChat(this);
         sixRoom.setLiveChatCallback(mLiveChatCallback);
         sixRoom.initWebView(mWebView);
@@ -148,50 +138,14 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        if(mWebView != null) {
-            mWebView.onResume();
-        }
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        if(mWebView != null) {
-            mWebView.onPause();
-        }
-    }
-
-    @Override
-    protected void onDestroy() {
-        clearWebView();
-        super.onDestroy();
-    }
-
-    /**
-     * 先让 WebView 加载null内容，然后移除 WebView，再销毁 WebView，最后置空
-     */
-    private void clearWebView() {
-        if (mWebView != null) {
-            mWebView.stopLoading();
-            mWebView.getSettings().setJavaScriptEnabled(false);
-            mWebView.loadDataWithBaseURL(null, "", "text/html", "utf-8", null);
-            mWebView.clearCache(true);
-            mWebView.clearHistory();
-            mWebView.removeAllViews();
-            mRootView.removeView(mWebView);
-            mWebView.destroy();
-            mWebView = null;
-        }
-    }
-
     @Override
     public void onBackPressed() {
         super.onBackPressed();
         clearWebView();
         System.exit(0);
+    }
+
+    public void loginActivity(View view) {
+        startActivity(new Intent(this,TestLoginActivity.class));
     }
 }
