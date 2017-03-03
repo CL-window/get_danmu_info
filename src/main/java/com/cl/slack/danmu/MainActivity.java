@@ -60,7 +60,7 @@ public class MainActivity extends BaseWebViewActivity {
     public void longzhu(View view) {
         LiveChat longzhu = new LongzhuLiveChat();
         longzhu.setLiveChatCallback(mLiveChatCallback);
-        longzhu.connect("http://star.longzhu.com/101371?from=filivehot1");
+        longzhu.connect("http://star.mLongzhuUrl.com/101371?from=filivehot1");
     }
 
     // done

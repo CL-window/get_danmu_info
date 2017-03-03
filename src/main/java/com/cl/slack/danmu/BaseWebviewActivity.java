@@ -21,6 +21,10 @@ import java.io.InputStreamReader;
 
 public abstract class BaseWebViewActivity extends AppCompatActivity {
 
+    /**
+     * 假装 电脑访问 web
+     */
+    private final String WEB_USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36";
     protected WebView mWebView;
     private ViewGroup mRootView;
 
@@ -34,8 +38,9 @@ public abstract class BaseWebViewActivity extends AppCompatActivity {
         addWebView(0);
     }
 
-    protected void addWebView(int index){
-        mRootView.addView(mWebView,index);
+    protected void addWebView(int index) {
+        mRootView.addView(mWebView, index);
+        mWebView.getSettings().setUserAgentString(WEB_USER_AGENT);
         // test
         mWebView.setWebChromeClient(new WebChromeClient(){
             @Override

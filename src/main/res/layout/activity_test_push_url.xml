@@ -19,12 +19,22 @@
             android:textAllCaps="false"
             android:onClick="douyu"/>
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="龙珠"
-            android:textAllCaps="false"
-            android:onClick="longzhu"/>
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="龙珠 add cookie"
+                android:textAllCaps="false"
+                android:onClick="longzhu"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="龙珠 with login"
+                android:textAllCaps="false"
+                android:onClick="longzhuWithLogin"/>
+        </LinearLayout>
 
         <Button
             android:layout_width="match_parent"

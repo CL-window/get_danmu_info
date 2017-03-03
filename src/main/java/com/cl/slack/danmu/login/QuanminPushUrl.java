@@ -24,7 +24,7 @@ public class QuanminPushUrl extends PushUrl {
 
     @Override
     public void getRoomPushUrl() throws Exception{
-        String html = HttpUtils.httpGet(mQuanminStartUrl,"{\"m\": \"room.viewSecretKey\"}",mCookie);
+        String html = HttpUtils.httpPostJson(mQuanminStartUrl,"{\"m\": \"room.viewSecretKey\"}",mCookie);
         JSONObject data = JSONObject.parseObject(html).getJSONObject("data");
         onGetUrl(data.getString("server"),data.getString("secretKey"));
     }

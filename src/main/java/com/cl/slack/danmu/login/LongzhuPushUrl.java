@@ -30,7 +30,8 @@ public class LongzhuPushUrl extends PushUrl {
 
     @Override
     public void getRoomInfo() throws Exception{
-        String html = HttpUtils.httpGet(mLongzhuRoomUrl,mCookie);
+        String html = mCookie==null ?
+                HttpUtils.httpGet(mLongzhuRoomUrl) : HttpUtils.httpGet(mLongzhuRoomUrl,mCookie);
         Pattern pattern = Pattern.compile("location\\s*?=\\s*?['|\"].*?://star.longzhu.com/(.*)['|\"]");
         Matcher matcher = pattern.matcher(html);
         matcher.find();
@@ -52,7 +53,7 @@ public class LongzhuPushUrl extends PushUrl {
     }
 
     private String getLongZhuHtml() throws Exception{
-        return HttpUtils.httpGet(
+        return HttpUtils.httpPostJson(
                 String.format(mLongzhuStartUrl,mRoomId),
                 JSON.toJSONString(mLongZhuParam),
                 mCookie

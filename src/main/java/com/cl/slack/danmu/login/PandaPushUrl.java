@@ -32,7 +32,7 @@ public class PandaPushUrl extends PushUrl{
 
     @Override
     public void closeRoom() throws Exception {
-        HttpUtils.httpGet(mPandaStartUrl,
+        HttpUtils.httpPostJson(mPandaStartUrl,
                 String.format("{\"status\": \"3\",\"token\": \"%s\"}",mToekn),
                 mCookie);
     }
@@ -41,7 +41,7 @@ public class PandaPushUrl extends PushUrl{
     public void getRoomPushUrl() throws Exception {
         mPandaParam.put("status","2");
         mPandaParam.put("token",mToekn);
-        String html = HttpUtils.httpGet(mPandaStartUrl,
+        String html = HttpUtils.httpPostJson(mPandaStartUrl,
                 JSON.toJSONString(mPandaParam),
                 mCookie);
         JSONObject data = JSON.parseObject(html).getJSONObject("data");

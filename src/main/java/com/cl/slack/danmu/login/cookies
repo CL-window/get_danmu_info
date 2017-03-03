@@ -399,3 +399,2237 @@ hiido_ui=0.39433265795061634; hd_newui=0.5876888945437817; __yamid_tt1=0.0860797
     </script>
 </body>
 </html>
+
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+斗鱼：
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>直播设置 - 个人中心 - 斗鱼</title>
+<script type="text/javascript">
+var $ROOMINFO2016 = {
+    roomid: 1721834,
+    roompic: "https://rpic.douyucdn.cn/a1702/22/11/1721834_170222110705.jpg",
+    siteurl: "http://www.douyu.com/"
+};
+</script>
+<link rel="stylesheet" type="text/css" href="https://staticlive.douyucdn.cn/common/douyu/style/common.css?v=v73470" /><link rel="stylesheet" type="text/css" href="https://staticlive.douyucdn.cn/common/douyu/style/user_css.css?v=20161130v73470" /><link rel="stylesheet" type="text/css" href="https://staticlive.douyucdn.cn/common/douyu/style/login.css?v=v73470" /><script>
+var _hmt = _hmt || [];
+(function() {
+	setTimeout(function(){
+		var hm = document.createElement("script");
+		hm.src = "//hm.baidu.com/hm.js?e99aee90ec1b2106afe7ec3b199020a7";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	},0);
+})();
+</script><style type="text/css">
+.c4 { width:200px; }
+.c8 { width:740px; }
+</style>
+<script>var allow_iframe =1;</script>
+<script type="text/javascript">
+var DYS_PAGE_INITTIME = new Date().getTime();
+
+var $SYS = {};
+$SYS['cookie_pre'] = 'acf_';
+$SYS['res_url'] = 'https://staticlive.douyucdn.cn/common/';
+$SYS['res_ver'] = 'v73470';
+$SYS['resource_url'] = 'https://res.douyucdn.cn/resource/';
+$SYS['avatar_url'] = 'https://apic.douyucdn.cn/';
+$SYS['upload_url'] = 'https://staticlive.douyucdn.cn/upload/';
+$SYS['sgate'] = '';
+$SYS['sport'] = [];
+$SYS['web_url'] = 'https://shark.douyucdn.cn/';
+$SYS['pay_site_host'] = 'https://cz.douyu.com';
+$SYS['tvk'] = 'ccn';	$SYS['tn'] = 'ctn';
+$SYS['fh'] = 'https://dotcounter.douyucdn.cn/deliver/fish';$SYS['fh2'] = 'https://dotcounter.douyucdn.cn/deliver/fish2';$SYS['ucp_front'] = 'https://ucp.douyucdn.cn/ucp.do';$SYS['webconfUrl'] ='https://webconf.douyucdn.cn/';$SYS['pmChatPopwindUrl'] ='https://msg.douyu.com';$SYS['vsite_url'] ='https://v.douyu.com';
+</script>
+<script type="text/javascript" src="https://staticlive.douyucdn.cn/common/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://staticlive.douyucdn.cn/common/js/artDialog_dy/jquery.artDialog.js?skin=blue"></script>
+<script type="text/javascript" src="https://staticlive.douyucdn.cn/common/js/artDialog_dy/plugins/iframeTools.js"></script>
+<script type="text/javascript" src="https://staticlive.douyucdn.cn/common/js/jquery.placeholder.js"></script>
+<script type="text/javascript" src="https://staticlive.douyucdn.cn/common/js/common.js?v20170117v73470"></script>
+<script type="text/javascript" src="https://staticlive.douyucdn.cn/common/js/m.js?v=v73470"></script>
+<script type="text/javascript" src="https://staticlive.douyucdn.cn/common/js/hm.js?v=v73470"></script>
+<script>
+$(function() {
+ $('input, textarea').placeholder();
+});
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="https://staticlive.douyucdn.cn/common/js/fixpng-min.js"></script>
+<script type="text/javascript">
+  DD_belatedPNG.fix('.back, .header .bd .logo');
+</script>
+<![endif]--><script type="text/javascript" src="https://staticlive.douyucdn.cn/common/kindeditor/kindeditor-min.js?150115"></script>
+<script type="text/javascript" src="https://staticlive.douyucdn.cn/common/js/jquery.zclip.min.js"></script>
+<script src="/common/js/helper.js?v73470" type="text/javascript"></script>
+<script src="/common/js/cate.js?v=126662v73470" type="text/javascript"></script>
+<script src="/common/js/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
+    <script src="/common/js/fishshow/ajaxfileupload.js?v73470"></script>
+    <script src="/common/js/fishshow/set-cover.js?v=abv73470"></script>
+<script src="/common/js/jquery.qrcode.min.js?v73470"></script>
+<!--    <script src="--><!--js/name.js?--><!--"></script>-->
+<link rel="stylesheet" type="text/css" href="/common/douyu/style/cate.css?v73470"/>
+        <script>
+                var uploadcoverVars = {
+            isvertical: 0,
+            coversrc: 'https://rpic.douyucdn.cn/appCovers/2017/02/22/1721834_20170222102945_big.jpg',
+            coverstatus: 3,
+            verify: '7262ff5735a1bb6ce1814707c3fa9a11'
+        };
+    </script>
+<link rel="stylesheet" type="text/css" href="https://shark.douyucdn.cn/app/douyu/css/com/login-pop.css?nv=8.213" /><link rel="stylesheet" type="text/css" href="https://shark.douyucdn.cn/app/douyu/css/page/member/live-set.css?nv=8.213" /><script type="text/javascript" charset="utf-8" src="https://shark.douyucdn.cn/shark/lib/js/port/shark-noConflict.js?nv=8.213"></script><script type="text/javascript" charset="utf-8" src="https://shark.douyucdn.cn/app/douyu/js/base/app.config.js?nv=8.213"></script><script type="text/javascript" charset="utf-8" src="https://shark.douyucdn.cn/app/douyu/js/page/room/normal/mod/location-verify.js?nv=8.213"></script><script type="text/javascript" charset="utf-8" src="https://shark.douyucdn.cn/app/douyu/third/jquery.tinyscrollbar.min.js?nv=8.213"></script><script type="text/javascript" charset="utf-8" src="https://shark.douyucdn.cn/app/douyu/js/page/member/normal/anc-liveset/app.js?nv=8.213"></script></head>
+<style>
+    /*标签添加*/
+    .add_tag p.type{
+        width: 70px;
+        height: 22px;
+      text-align: right;
+      line-height: 22px;
+      color: #000;
+      font-weight: normal;
+    }
+    .add_tag .add_tli{ width:100%; float:left; margin-bottom:15px;}
+    .add_tag .add_label{
+        width:420px;
+    }
+    .add_tag .add_label a{
+    display:inline-block;
+    margin:0 0 10px 6px;
+    padding:0 8px;
+    height:22px;
+    line-height:22px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Tahoma, Arial/9!important;
+    width: auto;
+    overflow: visible;
+    color: #fb8302;
+    font-size: 12px;
+    border: solid 1px #fb8302;
+    background: #FFF;
+    transition: all 500ms ease-in-out 0s;
+    -moz-transition: all 500ms ease-in-out 0s;
+    -webkit-transition: all 500ms ease-in-out 0s;
+    }
+    .add_tag .add_label a.cur{ background:#fea01e; color:#fff;}
+    .add_tag .add_label .tag_con{ display:block; width:403px; height:auto; margin-left:6px; border: 1px solid #d8d8d8;background: #FFF;}
+    .add_tag .add_label .tag_con .tag_inn{ border:none;}
+</style>
+<body class="bgcolor">
+<link rel="stylesheet" type="text/css" href="https://shark.douyucdn.cn/app/douyu/third/jquery.mCustomScrollbar/jquery.mCustomScrollbar.min.css?nv=8.213" /><link rel="stylesheet" type="text/css" href="https://shark.douyucdn.cn/app/douyu/css/com/dialog-openNobility.css?nv=8.213" /><script type="text/javascript" charset="utf-8" src="https://shark.douyucdn.cn/app/douyu/third/jquery.mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js?nv=8.213"></script><script>
+        window.passport_host = '//passport.douyu.com/';
+    window.client_id = '1';
+</script>
+<div id="header">
+    <div class="head">
+        <a href="/" class="logo fl"></a>
+        <ul class="header_nav fl js_head_menu">
+            <li data-point-2="0"><a href="/" class=" js_index_but">首页</a></li>
+            <li><a href="/directory/all" class="" onmouseover='$(".js_index_but").removeClass("current");'>直播</a></li>
+            <li id="js_head_game" class="game_menu" data-arrow="menu_sj" data-css="menu_up"  onmouseover='$(".js_index_but").removeClass("current");' >
+                <a href="/directory" data-arrow="menu_sj" data-css="menu_up" class="">分类</a>
+                <div class="menu_sj"></div>
+                <!-- 游戏弹框 -->
+                <div class="poptip game_cas js_head_show" style="display:none">
+                    <div class="sj_top usercase_top"></div>
+
+                    <div class="poptip_nr">
+                        <h3>热门分类</h3><ul class="game_btn"><li><a href="/directory/game/LOL" class="btn" target="_blank">英雄联盟</a></li><li><a href="/directory/game/How" class="btn" target="_blank">炉石传说</a></li><li><a href="/directory/game/DOTA2" class="btn" target="_blank">DOTA2</a></li><li><a href="/directory/game/TVgame" class="btn" target="_blank">主机游戏</a></li><li><a href="/directory/game/Overwatch" class="btn" target="_blank">守望先锋</a></li><li><a href="/directory/game/yys" class="btn" target="_blank">阴阳师</a></li></ul><h3>玩家推荐</h3><ul class="game_btn"><li><a href="/directory/game/SC" class="btn" target="_blank">星际争霸</a></li><li><a href="/directory/game/FTG" class="btn" target="_blank">格斗游戏</a></li><li><a href="/directory/game/classic" class="btn" target="_blank">怀旧游戏</a></li><li><a href="/directory/game/MC" class="btn" target="_blank">我的世界</a></li><li><a href="/directory/game/wzry" class="btn" target="_blank">王者荣耀</a></li><li><a href="/directory/game/hszz" class="btn" target="_blank">皇室战争</a></li><li><a href="/directory/game/jtlq" class="btn" target="_blank">街头篮球</a></li><li><a href="/directory/game/DNF" class="btn" target="_blank">DNF</a></li><li><a href="/directory/game/outdoor" class="btn" target="_blank">户外</a></li></ul>                        <div>
+                            <a href="/directory" class="all_btn dis" target="_blank">全部>></a>
+                        </div>
+                        <div class="expres_pic">
+                            <span  class="sign_posid" data-sign_posid="1" id="sign_p_1" style="display: none"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 游戏弹框 -->
+            </li>
+            <!-- 娱乐中心 -->
+            <li data-arrow="menu_webgame" data-css="menu_up" class="funny_menu">
+                <a href="http://wan.douyu.com" target="_blank" class="">游戏</a>
+                <span class="g_hot_icon"></span>
+
+<i></i>
+<div class="a-pop">
+    <i></i>
+    <div class="a-list">
+        <h3>网游推荐</h3>
+                <ul class="btns" data-type="webgame">
+                            <li>
+                    <a target="_blank" class="btn" href="http://wan.douyu.com/sxj/" data-id="5015" data-name="神仙劫">
+                        神仙劫                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="btn" href="http://wan.douyu.com/snqxz/" data-id="5013" data-name="少年群侠传">
+                        少年群侠传                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="btn" href="http://wan.douyu.com/lycq/" data-id="5003" data-name="蓝月传奇">
+                        蓝月传奇                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="btn" href="http://wan.douyu.com/dmbj/" data-id="5008" data-name="盗墓笔记">
+                        盗墓笔记                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="btn" href="http://wan.douyu.com/zzl/" data-id="5001" data-name="武神赵子龙">
+                        武神赵子龙                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="btn" href="http://wan.douyu.com/tq/" data-id="5010" data-name="铁骑冲锋">
+                        铁骑冲锋                    </a>
+                </li>
+                    </ul>
+                <div class="btn-all" data-type="webgame"><a target="_blank" href="http://wan.douyu.com/">全部&gt;&gt;</a></div>
+
+                <h3>手游推荐</h3>
+        <ul class="btns" data-type="mobilegame">
+                            <li>
+                    <a target="_blank" class="btn" href="/mobileGame/detail/1194" data-id="1194" data-name="龙之谷 ">
+                        龙之谷                     </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="btn" href="/mobileGame/detail/1150" data-id="1150" data-name="斗鱼三国">
+                        斗鱼三国                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="btn" href="/mobileGame/detail/1187" data-id="1187" data-name="轩辕剑3">
+                        轩辕剑3                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="btn" href="/mobileGame/detail/1180" data-id="1180" data-name="妖萌战姬">
+                        妖萌战姬                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="btn" href="/mobileGame/detail/1176" data-id="1176" data-name="口袋妖怪VS">
+                        口袋妖怪VS                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="btn" href="/mobileGame/detail/1188" data-id="1188" data-name="刀剑乱舞">
+                        刀剑乱舞                    </a>
+                </li>
+                    </ul>
+        <div class="btn-all" data-type="mobilegame"><a target="_blank" href="/mobileGame/home">全部&gt;&gt;</a></div>
+                <!-- 兼容旧代码 -->
+        <div class="assort-ad hide sign_posid" data-sign_posid="2" id="sign_p_2" data-dysign="2"></div>
+    </div>
+</div>
+            </li>
+            <!-- 娱乐中心 -->
+            <li><a href="http://yuba.douyu.com/" target="_blank">鱼吧</a></li>
+
+        </ul>
+        <div class="header_r">
+            <div class="search fl js_search">
+                <input type="text" class="fl js_search_txt" autocomplete="off" placeholder="房间/主播/分类/视频"  id="search_word" onkeydown="if(event.keyCode==13) { search_submit(this); }" value=""/>
+                <a class="fr" onClick="search_submit(this); return false;" href="javascript:void(0);"><i class="icon iconfont"></i></a>
+            </div>
+
+            <div class="header_his fl js_his" style="">
+
+                <a data-stat="0" class="his js_header_his" href="javascript:void(0);">
+                    <span class="icon iconfont"></span><span class="text">历史</span>
+                    <div id="his_sj" class="his_sj"></div>
+                </a>
+
+              <!-- 历史弹框 -->
+             <div class="poptip his_case js_his_list js_head_show" style="display:none">
+              <div class="poptip_a"></div>
+                 <div class="sj_top case_top"></div>
+                 <p  id="loadhis" style="display:none; text-align:center">
+                    <img src="https://staticlive.douyucdn.cn/common/douyu/images/loading.gif" />
+                    数据加载中...
+                 </p>
+                 <div class="js_no_his nohis" style="display:none; text-align:center">
+                     <p class="his-tt">信息动态</p>
+                        <p class="his-cn"> <img src="https://staticlive.douyucdn.cn/common/douyu/images/sg-no-mes.png" alt=""> <span class="his-tip">你的历史列表空空如也~</span> </p>
+                 </div>
+                 <ul class="his_nr">
+
+                 </ul>
+
+             </div>
+             <!-- 历史弹框 -->
+           </div>
+
+
+            <div class="phoneapp dis fl" id="headfolow">
+                <a data-stat="0" id="js_myfollow" class="attent">
+                    <span class="icon iconfont"></span><span class="text">关注</span>
+                    <div id="follow_sj" class="his_sj">
+                    </div>
+                </a>
+                <div class="poptip his_case js_head_show" style="display:none" id="folowdiv">
+                    <div class="poptip_a"></div>
+                    <div class="sj_top case_top"></div>
+                    <p id="loadfollow" class="nohis" style="text-align:center; display:none">
+                        <img src="https://staticlive.douyucdn.cn/common/douyu/images/loading.gif" />
+                        数据加载中...
+                    </p>
+                    <div class="js_no_his nohis" style="display:none; text-align:center">
+                        <p class="his-tt">信息动态</p>
+                        <p class="his-cn"> <img src="https://staticlive.douyucdn.cn/common/douyu/images/sg-no-mes.png" alt=""> <span class="his-tip">你的关注列表空空如也~</span> </p>
+                    </div>
+                    <ul class="his_nr" id="followlist">
+
+                    </ul>
+                    <p class="his_more"> <a href="/room/my_follow">查看全部</a> </p>
+                </div>
+            </div>
+
+            <div class="downapp dis fl" id="headDownl" data-arrow="menu_sj" data-css="menu_up">
+                <a target="_blank" class="attent" id="js_myfollow" data-stat="0" href="/client">
+                    <span class="icon iconfont"></span><span class="text">下载</span>
+                    <div class="his_sj" id="follow_sj"></div>
+                    <span class="g_new_icon"></span>
+                    <em class="menu_sj"></em>  <!-- 添加 -->
+                </a>
+              <!-- 下载下拉 -->
+               <div style="display: none;" class="poptip his_case head_downl js_head_show">
+                  <div class="poptip_a"></div>
+                  <div class="sj_top case_top"></div>
+                  <ul>
+                      <li><a href="/client?platform=2" target="_blank">App下载</a></li>
+                      <li style="border-bottom:none"><a href="/client?platform=1" target="_blank">主播工具下载</a></li>
+                  </ul>
+               </div>
+                 <!-- 下载下拉 -->
+            </div>
+
+            <div class="loginShow fl js_login_no" >
+                <span class="icon iconfont"></span>
+                <a href="/member/login"  onclick='try{user_dialog.open_login();return false;}catch(ex){return true;}' data-button-type="login">登录</a><em>|
+                </em><a href="/member/register" onclick="try{user_dialog.open_reg();return false;}catch(ex){return true;}" data-button-type="regis">注册</a>
+            </div>
+
+            <div class="head_user dis fl js_login_yes " id="js_member_pic" data-login-content="yes">
+               <!--a class="user " href="javascript:;"><img src="" width="36" height="36" class="js_avatar" /></a-->
+                <a  class="headuser " href="/member/cp" target="_blank">
+                    <span class="userpic"><img width="26" height="26" class="js_avatar" src=""></span><span class="user_top js_nickname"> </span><em class="menu_sj"></em>
+                </a>
+                <b class="letter_dian" style="display: none"></b>
+                <!--l-menu -->
+                    <div class="l-menu js_head_show"  >
+                       <i class="lmsj-top"></i>
+                        <div class="uinfo-dropmenu">
+                            <div class="box1 chat-member" >
+                                <div class="chat-mem-con clearfix">
+                                <div class="mem-pic">
+                                        <a href="/member/cp" target="_blank" data-login-user="img-href">
+                                        <img src="" data-login-user="header-img" class="js_avatar">
+                                        <!-- S 贵族图标 -->
+                                        <img class="nobility-icon" src="" alt="贵族">
+                                        <!-- E 贵族图标 -->
+                                                        </a>
+                                                    </div>
+                                <div class="logname">
+                                    <a class="name" data-login-user="user-name" href="/member/cp" target="_blank"></a>
+                                                </div>
+                                <div class="authenticate">
+                                    <a class="uname-aut"><i class="high"></i></a>
+                                    <a class="mobile-aut"><i class="high"></i></a>
+                                    <a class="email-aut"><i class="high"></i></a>
+                                            </div>
+                                <div class="level-con clearfix">
+                                    <span class="user-level">
+                                      <a href="/member/mylevel" target="_blank">
+                                          <img src="https://staticlive.douyucdn.cn/common/douyu/images/loading.gif" data-login-user="level-img" title=""></a>
+                                  </span>
+                                    <a class="bar fl" href="/member/mylevel" target="_blank" data-exp-bar="btn">
+                                        <div class="bar-per-wp">
+                                            <span class="bar-per" data-login-user="exp" style=""></span>
+                                        </div>
+                                        <span class="bar-num" data-login-user="exp-txt"></span>
+                                        <div class="level-tip hide" data-exp-bar="box">
+                                            <p>
+                                                还需 <em data-login-user="up-exp-num"></em> 经验值到达下一级
+                                            </p>
+                                            <i></i>
+                                        </div>
+                                    </a>
+                                    <span class="user-level-next">
+                                      <a href="/member/mylevel" target="_blank">
+                                          <img src="https://staticlive.douyucdn.cn/common/douyu/images/loading.gif" data-login-user="level-next-img" title=""></a>
+                                   </span>
+                                </div>
+                                <a class="invisible is-invisible">进房间隐身
+                                    <span class="invisible-sp">
+                                                <i class="icon-invisible"></i>
+                                                关闭进房间隐身
+                                            </span>
+                                    <span class="is-invisible-sp">
+                                                <i class="icon-invisible"></i>
+                                                开启隐身，隐藏进场信息
+                                            </span>
+                                </a>
+                                <a class="logout" href="javascript:;" onclick="logout_submit();">登出</a>
+                                </div>
+                            </div>
+                        <!-- S nobility-privilege-->
+                        <div class="nobility-privilege">
+                            <!-- S 非贵族用户 -->
+
+                            <!-- E 非贵族用户 -->
+                        </div>
+                        <!-- E nobility-privilege-->
+                            <!--wallet -->
+                            <div class="box4 wallet">
+                               <div class="wallet-con clearfix">
+                                  <div class="fl">
+                                      <h2 class="title">我的钱包</h2>
+                                      <div class="m-wealth">
+                                          <span class="y1" title="做任务可获得鱼丸">鱼丸 <em data-login-user="silver" class="ywtit"><img src="https://staticlive.douyucdn.cn/common/douyu/images/loading.gif"></em></span>
+                                          <span class="y2">鱼翅 <em data-login-user="gold" class="yctit"><img src="https://staticlive.douyucdn.cn/common/douyu/images/loading.gif"></em></span>
+                                        <!-- S 贵族鱼翅 -->
+                                        <a class="y3" href="/member/noble/record" target="_blank">
+                                            (贵族鱼翅<em data-login-user="nobleGold"></em>)
+                                            <span class="y3-mask">
+                                                <i class="y3-mask-arrow"></i>
+                                                在贵族生效期间一直有效
+                                                <!-- <em data-login-user="ngdate"></em>-->
+                                            </span>
+                                        </a>
+                                        <!-- E 贵族鱼翅 -->
+                                       </div>
+                                    </div>
+                                  <a class="r-com-btn getYc fr" href="/web_game/welcome/18" target="_blank">充值</a>
+                                </div>
+                            </div>
+                        </div>
+                            <!--wallet -->
+                            <!--task start-->
+                            <div class="box5 task clearfix">
+                                <h2 class="task-title">我的任务</h2>
+                                <div class="task-con">
+                                    <a class="fl task-img task-a">
+
+                                    </a>
+                                    <div class="fl task-text">
+                                        <a class="task-a clearfix"><h2 class="title"></h2></a>
+                                        <p class="comment"></p>
+                                    </div>
+                                </div>
+                            <!--task end-->
+                            </div>
+                            <div class="box6 uim-foot">
+                                <ul class="clearfix">
+                                    <li class="personal-center">
+                                        <a class="pc-a "  href="/member"  target="_blank">
+                                            <i></i>
+                                            <p>个人中心</p>
+                                        </a>
+                                    </li>
+                                    <li class="focus">
+                                        <a href="/room/my_follow" target="_blank" class="focus-a ">
+                                            <i></i>
+                                            <p>我的关注</p>
+                                        </a>
+                                    </li>
+                                                                        <li class="message">
+                                            <a href="/member/pm" class="message-a " target="_blank">
+                                                <i></i>
+                                            <p>站内信</p>
+                                                <b class="mes-icon hide"></b>
+                                            </a>
+                                        </li>
+                                                                    <li class="live-set">
+                                        <a href="/room/my" class="live-set-a " target="_blank">
+                                            <i></i>
+                                            <em class="live-hot hide"></em>
+                                            <p>直播设置</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            <!--l-menu-->
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- 头部结束 -->
+<script type="text/javascript" src="https://staticlive.douyucdn.cn/common/js/json2.js?_v73470"></script>
+<script type="text/javascript" src="https://shark.douyucdn.cn//stream/dist/dys-douyutv.js?_v73470"></script>
+<!--header-end-->
+    <div id="tipsy" class="tipsy" style="display:none;visibility:visible;">
+        <div class="arrow"></div>
+        <span id="tiptit"> </span>
+      </div>
+<div id="wrap" class="clearfix">
+  <div class="live_wrap clearfix">
+      <div class="u_header">
+    <h1 class="fl">个人中心</h1>
+        <a href="/" class="glyphicon01 glyphicon01_back fr"  target="_blank">返回首页</a>
+</div>      <div class="u_main clearfix">
+
+<div class="u_nav">
+    <ul>
+        <li><a href="/member/cp"><i class="u_nav_icon1"></i>我的资料</a></li>
+                        <li><a href="/member/pm"><i class="u_nav_icon2"></i>站内信<em class='letter_num' style='display: none;'></em></a></li>
+                <li><a href="/room/follow"><i class="u_nav_icon3"></i>我的关注</a></li>
+
+        <li class="li_u_nav_noble"><a href="/member/noble"><i class="u_nav_nobel"></i>我的贵族</a></li>
+        <li class="li_u_nav_mylevel"><a href="/member/mylevel" ><i class="u_nav_mylevel"></i>我的等级</a></li>
+        <li><a href="/room/wabu/my_favorite"><i class="u_nav_icon_fav"></i>我的收藏</a></li>
+                    <li><a href="/member/mysubscribe"><i class="u_nav_icon12"></i>我的订阅</a></li>
+                <li><a href="/member/gamegift"><i class="u_nav_icon_gamegift"></i>游戏礼包</a></li>
+        <li><a href="/member/cp/prop"><i class="u_nav_icon11"></i>我的道具</a></li>
+        <li><a href="/member/cp/get_gift_consume" ><i class="u_nav_icon4"></i>消费记录</a></li>
+        <li><a href="/member/cp/otherTitle"     ><i class="u_nav_icon_honor"></i>我的头衔</a></li>
+        <li><a href="/room/roomSetting/room"><i class="u_nav_icon5"></i>房间管理</a></li>
+        <li><a href="/member/cp/eticketlog"><i class="u_nav_icon10"></i>票务查询</a></li>
+        <li><a href="/member/yccdkey"><i class="u_nav_icon7"></i>兑换中心</a></li>
+                    <li><a href="/member/anchor/recruit"><i class="u_nav_icon8"></i>主播招募</a></li>
+                            <li><a href="/member/adults_oauth/index" ><i class="u_nav_icon9"></i>防沉迷验证</a></li>
+                                    <li class="js_u_nav">
+
+                <a href="javascript:;"  class="current" ><i class="u_nav_icon6"></i>主播相关 <b></b> </a>
+                <dl style="display: block;">
+                 <dd><a href="/room/my/gift_profit" >直播收益</a></dd>
+                                    <dd><a href="/room/my/convert" >收益兑换</a></dd>
+                                        <dd><a href="/room/my/show" >直播记录</a></dd>
+                    <dd><a href="/room/my/room_stat" >直播数据统计</a></dd>
+                <dd class="anchor-live-set"><a  href="/room/my"  class=" active">直播设置</a></dd>
+                                            <dd><a href="/member/ad_quest/quest" >赏金任务</a></dd>
+                                                                <dd><a href="/member/myVoddRecomm" >视频推荐设置</a></dd>
+                                                <dd><a href="/member/myTimemachine" >直播录像管理</a></dd>
+                                                                                        <dd><a href="/room/my/addiy" >广告设置</a></dd>
+                                                            <dd><a href="/room/my/memberCreditLog?op_type=1" >积分管理</a></dd>
+
+
+                </dl>
+            </li>
+            </ul>
+
+    </div>
+
+<link rel="stylesheet" type="text/css" href="https://shark.douyucdn.cn//app/douyu/third/jquery.mCustomScrollbar/jquery.mCustomScrollbar.min.css"/>
+<script type="text/javascript" charset="utf-8" src="https://shark.douyucdn.cn//app/douyu/third/jquery.mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js?nv=v73470"></script>
+<script type="text/javascript">
+$(function(){
+    $(".js_u_nav a").click(function(){
+        if(!$(this).siblings('dl').is(":animated")){
+
+            if( !$(this).find('b').attr('class') ){
+                $(this).find('b').addClass('cur');
+            }else{
+                $(this).find('b').removeClass('cur');
+            }
+                $(this).siblings('dl').slideToggle();
+        }
+    });
+})
+</script>
+    <div class="u_mainbody">
+
+
+
+
+
+      <div class="user_set">
+        <div class="control_group clearfix">
+          <label class="control-label">房间ID：</label>
+          <div class="control "> <span class="room_id">1721834</span>
+
+                               <div onclick="window.location.href='/1721834?_r=' + Math.random(1)"
+                            class="comein-live-btn" style="margin-left:30px;">
+            进入直播房间
+                    </div>
+
+		            </div>
+        </div>
+          <div class="control_group clearfix">
+              <label class="control-label">房间标题：</label>
+              <div class="control control01 verify-name" data-switch="1">
+                  <span class="verify-old-name fl">rr585的直播间</span>
+                  <input id="new_name" name="new_name" class="form_control room_name" type="text"  size="16" maxlength="20" value="rr585的直播间" style="display: none;">
+
+                  <button class="primary_button01" style="margin:0 15px;line-height: 1.5;" data-stage="modify">修改</button>
+                    <span data-state="0" data-name=""  style="color: orangered;*vertical-align: super;" class="verify-name-cont">
+                        <span class="verify-name-title" style="padding-right: 8px;"></span>
+                        <span class="verify-name-state"></span></span>
+                </div>
+                                <label class="control-label">&nbsp;</label>
+                <p class="control control01" style="color: orangered">房间标题通过审核后，需要间隔10分钟才能再次修改</p>
+                            </div>
+            <div class="control_group clearfix">
+                <label class="control-label">房间公告：</label>
+                <div class="control">
+                    <div class="show_details clearfix" id="show_details"> </div>
+                    <button type="button" onclick="update_show_details(this)" class="primary_button01" data-locked="">修改</button>
+                                    </div>
+            </div>
+            <div class="control_group clearfix">
+                <label class="control-label">房间描述：</label>
+                <div class="control">
+                    <div class="show_description clearfix" id="show_description" data-code="2">
+                        <div class="show_description_tags">
+                                                        <label><span>测试</span><a href="javascript:;">×</a></label>
+
+
+
+
+                          <input maxlength="6" type="text" class="show_description_ipt"/>
+
+                          <a class="show_description_modify" href="javascript:;">修改</a>
+                          <a class="show_description_save" href="javascript:;">保存</a>
+                      </div>
+                      <div class="show_description_tip">
+                      </div>
+                      <div class="room-point-waring" style="color : red">
+                          房间描述可用于提高搜索的曝光度，请填写与您直播间相关且用户常用的搜索关键词，最多添加3个关键词，每个最多6个字符
+                      </div>
+                  </div>
+              </div>
+          </div>
+        <div class="control_group clearfix">
+          <label  class="control-label">当前域名：</label>
+          <div class="control control01 ">
+         		<span class="nowurl">http://www.douyu.com/1721834</span>
+          <!---->
+          </div>
+        </div>
+          <div class="control_group clearfix">
+              <label class="control-label">个性域名：</label>
+                <div class="control control01">
+                    <span class="fl showurl">http://www.douyu.com/</span>
+                    <input id="s_cata"
+                           class="form_control room_name" type="text" name="s_cata" size="16" maxlength="12"
+                           value="">
+                    <select id="specific_status" style="width: auto;height:auto;padding: 3px 2px;margin-left: 5px;"
+                            class="form_control">
+                      	<option value="1">启用</option>
+	<option value="0" selected>关闭</option>
+</select>
+              </div>
+              <label class="control-label">&nbsp;</label>
+              <p class="control control01" style="color: orangered">谨慎修改，个性域名限制30天修改一次。</p>
+          </div>
+
+
+
+
+       <div class="control_group clearfix">
+          <label class="control-label">rtmp地址：</label>
+          <div class="control ">
+                            <input type="text" readonly class="form_control form_contrl01" size="16"
+                                   value="rtmp://send1a.douyu.com/live" id="rtmp_url">
+           <button type="button"  class="primary_button01 " id="copy_rtmp_url">复制</button>
+          </div>
+        </div>
+
+    	<div class="control_group clearfix">
+          <label class="control-label">直播码：</label>
+          <div class="control">
+                            <input type="text" readonly class="form_control form_contrl01" size="16"
+                                   value="1721834rcqhAgyaT?wsSecret=458d19947b487e4d912049db3b862d2c&amp;wsTime=58b93fac" id="rtmp_val">
+           <button type="button"  class="primary_button01" id="copy_rtmp_val">复制</button>
+          </div>
+        </div>
+
+
+
+        <div class="control_group clearfix">
+          <label  class="control-label">房间设置：</label>
+          <div class="control">
+                    <a href="/room/my/room_admin" style="margin-left:0;"
+                       class="js_tipsy primary_button01" data-title='设置房间管理员，让其拥有本房间黑名单，用户发言的控制权限'>管理员</a>
+                    <a href="/room/roomSetting/getMuteList/1721834"
+                       class="js_tipsy primary_button01" data-title='被禁止发言的用户名单'>禁言名单</a>
+                    <a href="/room/roomSetting/roomBanIpList/1721834"
+                       class="js_tipsy primary_button01" data-title='将某一个IP进行屏蔽，禁止其发言'>屏蔽IP</a>
+                    <a onclick="upload_age_limit()" href="javascript:void(0)" class="js_tipsy primary_button01"
+                       data-title='设置本房间的用户最低发言等级，以及基本发言时间间隔'>用户发言</a>
+              <!--                    <a id="js_live_notice" href="javascript:void(0)" class="js_tipsy primary_button01"-->
+<!--                       data-title='为下次直播设置预告'>开播预告</a>-->
+                    <a href="javascript:;" id="change_send_config"
+                                                   class="js_tipsy primary_button01"
+                                                   data-title='切换推流线路'>切换推流线路</a>                     <a href="/room/my/contactSetup"
+                       class="js_tipsy primary_button01 fill-wxx" data-title='填写你的微信号和设置火箭连击数
+赠送火箭达到连击数的用户可收到
+包含微信号的站内信消息'>填写微信号</a>
+                </div>
+            </div>
+
+            <div class="control_group clearfix">
+                <label class="control-label" cover_type="0" cover_src="https://rpic.douyucdn.cn/appCovers/2017/02/22/1721834_20170222102945_big.jpg"
+                       cover_status="3" cover_on="0">直播分类：</label>
+                <div class="control  tag">
+                    <ul id="tag_show" style="float:left" class="tag_show">
+                                                    <li>
+                                <a href='javascript:void(0);' style='margin-right: 0px' class='tag_check01'>正能量</a>				</li>
+				            </ul>
+                    <button id="js_update_cate" type="button"
+                            class="primary_button01 ">
+                        更改
+                    </button>
+                                    </div>
+            </div>
+                    <!-- 鱼秀主播城市设置 -->
+                  <!--积分记录-->
+                        <div class="control_group clearfix">
+                  <label class="control-label">直播分数：</label>
+                  <div class="control">
+                        <span class="room-point-content" style="display : inline-block;">
+                                                        <span id="room-point" style="color: green;font-weight: 700;">12 </span>
+                            <span> 分</span>
+                        </span>
+                        <a href="/room/my/memberCreditLog" style="margin-left:0;" class="primary_button01">查看扣分记录</a>
+                        <a href="http://www.douyutv.com/cms/gong/201602/14/3078.shtml" class="primary_button01">查看扣分规则</a>
+                  </div>
+              </div>
+              <div class="control_group clearfix">
+                  <label class="control-label"></label>
+                  <div class="control">
+                      <div class="room-point-waring" style="color : red">
+                          如果出现违规扣除一定直播分数，4分以下关闭直播间礼物、酬勤系统。扣为0分永久封停直播间。保持直播出勤率，可以恢复一定积分。
+                      </div>
+                  </div>
+              </div>
+                  <!--添加标签-->
+        <div class="control_group clearfix">
+          <label  class="control-label">标签分类：</label>
+          <div class="control  tag">
+                        <ul id="tag_show" style="float:left" class="tag_show">
+                                                            <li><a href="javascript:void(0);" class="tag_check01">新秀</a></li>
+                                                </ul>
+                        <button id="updateTag" type="button" class="primary_button01"> 更改 </button>
+          </div>
+        </div>
+
+        <!--添加第三方插件-->
+                <div class="largeBtn">
+         <label  class="control-label"></label>
+          <button id="js_close_show" type="button" class="primary_button01 primary_button01_hover btn_big">关闭直播</button>
+          <button onclick="window.location.href='/cms/zhibo/list_16.shtml'" type="button" class="primary_button01 btn_big">直播教程</button>
+        </div>
+      </div>
+
+          </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div style="display:none" id="change_tags" class="tag_div"></div>
+<form id="js_speak_set" name="form1" class="speak_set" method="post" action="" style="display:none;">
+  <table cellspacing="0" cellpadding="0">
+      <tr>
+        <th scope="row">最低注册时间：</th>
+        <td><input type="text" name="speak_limit" id="s_agelimit" class="small_txt" value="0" />天</td>
+      </tr>
+
+      <tr>
+        <th scope="row">最低用户等级：</th>
+        <td><select name="speak_lv">
+                    <option value="1">1级</option>
+                    <option value="2">2级</option>
+                    <option value="3">3级</option>
+                    <option value="4">4级</option>
+                    <option value="5">5级</option>
+                    <option value="6">6级</option>
+                    <option value="7">7级</option>
+                    <option value="8">8级</option>
+                    <option value="9">9级</option>
+                    <option value="10">10级</option>
+                    <option value="11">11级</option>
+                    <option value="12">12级</option>
+                    <option value="13">13级</option>
+                    <option value="14">14级</option>
+                    <option value="15">15级</option>
+                    <option value="16">16级</option>
+                    <option value="17">17级</option>
+                    <option value="18">18级</option>
+                    <option value="19">19级</option>
+                    <option value="20">20级</option>
+                    <option value="21">21级</option>
+                    <option value="22">22级</option>
+                    <option value="23">23级</option>
+                    <option value="24">24级</option>
+                    <option value="25">25级</option>
+                    <option value="26">26级</option>
+                    <option value="27">27级</option>
+                    <option value="28">28级</option>
+                    <option value="29">29级</option>
+                    <option value="30">30级</option>
+                    <option value="31">31级</option>
+                    <option value="32">32级</option>
+                    <option value="33">33级</option>
+                    <option value="34">34级</option>
+                    <option value="35">35级</option>
+                    <option value="36">36级</option>
+                    <option value="37">37级</option>
+                    <option value="38">38级</option>
+                    <option value="39">39级</option>
+                    <option value="40">40级</option>
+                    <option value="41">41级</option>
+                    <option value="42">42级</option>
+                    <option value="43">43级</option>
+                    <option value="44">44级</option>
+                    <option value="45">45级</option>
+                    <option value="46">46级</option>
+                    <option value="47">47级</option>
+                    <option value="48">48级</option>
+                    <option value="49">49级</option>
+                    <option value="50">50级</option>
+                    <option value="51">51级</option>
+                    <option value="52">52级</option>
+                    <option value="53">53级</option>
+                    <option value="54">54级</option>
+                    <option value="55">55级</option>
+                    <option value="56">56级</option>
+                    <option value="57">57级</option>
+                    <option value="58">58级</option>
+                    <option value="59">59级</option>
+                    <option value="60">60级</option>
+                    <option value="61">61级</option>
+                    <option value="62">62级</option>
+                    <option value="63">63级</option>
+                    <option value="64">64级</option>
+                    <option value="65">65级</option>
+                    <option value="66">66级</option>
+                    <option value="67">67级</option>
+                    <option value="68">68级</option>
+                    <option value="69">69级</option>
+                    <option value="70">70级</option>
+                    <option value="71">71级</option>
+                    <option value="72">72级</option>
+                    <option value="73">73级</option>
+                    <option value="74">74级</option>
+                    <option value="75">75级</option>
+                    <option value="76">76级</option>
+                    <option value="77">77级</option>
+                    <option value="78">78级</option>
+                    <option value="79">79级</option>
+                    <option value="80">80级</option>
+                    <option value="81">81级</option>
+                    <option value="82">82级</option>
+                    <option value="83">83级</option>
+                    <option value="84">84级</option>
+                    <option value="85">85级</option>
+                    <option value="86">86级</option>
+                    <option value="87">87级</option>
+                    <option value="88">88级</option>
+                    <option value="89">89级</option>
+                    <option value="90">90级</option>
+                    <option value="91">91级</option>
+                    <option value="92">92级</option>
+                    <option value="93">93级</option>
+                    <option value="94">94级</option>
+                    <option value="95">95级</option>
+                    <option value="96">96级</option>
+                    <option value="97">97级</option>
+                    <option value="98">98级</option>
+                    <option value="99">99级</option>
+                    <option value="100">100级</option>
+                    <option value="101">101级</option>
+                    <option value="102">102级</option>
+                    <option value="103">103级</option>
+                    <option value="104">104级</option>
+                    <option value="105">105级</option>
+                    <option value="106">106级</option>
+                    <option value="107">107级</option>
+                    <option value="108">108级</option>
+                    <option value="109">109级</option>
+                    <option value="110">110级</option>
+                    <option value="111">111级</option>
+                    <option value="112">112级</option>
+                    <option value="113">113级</option>
+                    <option value="114">114级</option>
+                    <option value="115">115级</option>
+                    <option value="116">116级</option>
+                    <option value="117">117级</option>
+                    <option value="118">118级</option>
+                    <option value="119">119级</option>
+                    <option value="120">120级</option>
+
+            </select>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">全局禁言：</th>
+        <td>
+            <input type="checkbox" name="speak_only_admin" id="speak_only_admin" value="4" class="checkbox"  />
+            <label for="speak_only_admin">仅超管，主播，管理员发言</label>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row" style="vertical-align: text-top;">CD发言倍数：</th>
+        <td>
+           <input type="text" name="speak_cd" id="speak_cd" class="small_txt" value="0" />
+           <span>请输入1到100的整数</span><br /><span style="color:#666">倍数越大发言间隔时间越长</span>
+        </td>
+      </tr>
+ </table>
+
+</form>
+
+
+<form id="js_live_notice_form" name="form1" class="speak_set" method="post" action="" style="display:none;">
+  <table cellspacing="0" cellpadding="0">
+      <tr>
+        <th scope="row">房间ID：</th>
+        <td>1721834</td>
+      </tr>
+
+      <tr>
+        <th scope="row">标题：</th>
+        <td><input type="text" name="title" id="js_live_title" class="middle_txt" value="" /></td>
+      </tr>
+
+      <tr>
+        <th scope="row">开播时间：</th>
+                <td><input type="text" name="show_time" id="js_live_time" class="middle_txt Wdate" onFocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm', minDate:'%y-%M-%d 18:09',maxDate:'%y-%M-{%d+6} 23:59'})" value="" /></td>
+      </tr>
+ </table>
+
+</form>
+
+<script type="text/javascript">
+    try{
+        $("body").attr("data-page-point","11");
+        //个人中心热力图
+        DYS.trigger.hot({exclude:'#header'});
+    }catch(e){}
+</script>
+<div class="loginWd loginBg" id="js_login_dialog"  data-point="dlk">
+  <div id="culp"><a class="pwclose" href="#" >&nbsp;</a>
+    </div>
+  <div class="toggleBtn_login" id="js_login_tab">
+    <ul>
+      <li><a href="javascript:void(0);" id="js_login">登录</a></li>
+      <li><a href="javascript:void(0);" id="js_reg">注册</a></li>
+    </ul>
+  </div>
+  <div class="wdCont clearfix">
+  	<div class="inputBox clearfix" id="js_reg_cont">
+    <form id="reg_form" action="" method="post">
+      <p>
+        <input class="inputtxt" type="text" name="nickname"  placeholder="昵称" />
+      </p>
+      <p>
+        <input class="inputtxt" type="password" name="password" placeholder="密码" />
+      </p>
+      <p>
+        <input class="inputtxt" type="password" name="password2" placeholder="确认密码" />
+      </p>
+      <p>
+        <input class="inputtxt" type="text" name="email" placeholder="电子邮箱" />
+      </p>
+        <p class="login_dialog_protocol">
+            <input type="checkbox" name="protocol" id="protocol" checked="checked"><label for="protocol">同意 <a href="/protocal/member" target="_blank">用户注册协议</a></label>
+        </p>
+
+
+<input class="inputtxt" type="hidden" name="captcha_word" id="reg_captcha_val" maxlength="4" placeholder="获取验证码" style="width:110px;">
+
+      <div class="loginBtn_dialog clearfix">
+        <input class="sendlogin" type="submit" id="js_reg_submit" value="注册" />
+        <p>已有账号？<a href="javascript:void(0)" onClick="user_dialog.open_login(); return false;" title="马上登录">马上登录</a></p>
+      </div>
+    </form>
+    </div>
+
+    <div class="inputBox clearfix" id="js_login_cont">
+    <form id="login-form" action="/member/login/ajax" method="post">
+    	<input type="hidden" name="login_type" value="nickname" />
+      <p>
+        <input class="inputtxt" type="text" name="username" placeholder="昵称" />
+      </p>
+      <p>
+        <input class="inputtxt" type="password" name="password" placeholder="密码"/>
+      </p>
+      <p>
+    <div id="login_captcha_cont">
+        <input class="inputtxt login_capcha_old" type="text" name="captcha_word" id="login_captcha_val" maxlength="4" placeholder="获取验证码" style="width:110px;">&nbsp;
+        <img id="login_captcha" class="login_capcha_old" data-src="" src="" style="vertical-align:middle; cursor:pointer;" />
+    </div>
+</p>
+      <div class="loginBtn_dialog clearfix">
+        <input class="sendlogin" type="submit" value="登录" id="js_login_submit" />
+        <p>没有账号？<a href="javascript:void(0)" onClick="user_dialog.open_reg(); return false;" title="马上注册">马上注册</a></p>
+      </div>
+    </form>
+    </div>
+
+    <div class="elseLogin_dialog">
+      <p>用第三方账号直接登录</p>
+      <div>  <a href="https://www.douyu.com/member/oauth/signin/weixin" class="wxBtn" target="_blank" title="微信账号登录" data-point-2="wx"><span class="dy_icon dy_wx"></span>微信账号登录</a> <a href="/member/oauth/signin/qq" class="sinaBtn" target="_blank" title="QQ账号登录" data-point-2="qq"><span class="dy_icon dy_sina"></span>QQ账号登录</a> <a href="/member/oauth/signin/weibo" class="qqBtn" target="_blank" title="微博账号登录" data-point-2="wb"><span class="dy_icon dy_qq"></span>微博账号登录</a> <a href="/member/oauth/signin/acfun" class="acfunBtn" target="_blank" title="Acfun账号登录" data-point-2="ac"><span class="dy_icon dy_acfun"></span>Acfun账号登录</a> </div>
+      <p class="forgetPd"><a href="/member/findpassword" target="_blank">忘记密码？</a></p>
+    </div>
+  </div>
+
+  <!--中文验证码-->
+<div class="lyzm" style=" display:none">
+
+<div class="tit clearfix"><h3>输入验证码完成注册</h3><a href="#" class="close" onClick="$('#reg_captcha_val').val('');$(this).parents('div.lyzm').hide()">关闭</a></div>
+
+<div class="con">
+      <div class="val_add clearfix">
+      <img id="reg_captcha" src=""
+      data-src="/member/register/regcaptcha" style="display: none" />
+      <span>验证码</span>
+          <b></b>
+          <b></b>
+          <b></b>
+          <b></b>
+          <b class="delete" title="清除"></b>
+      </div>
+      <div class="input_show">
+          <span onClick="user_form.update_vcode('reg_captcha')" style="cursor:pointer;" ></span>
+      <a href="#" onClick="user_form.update_vcode('reg_captcha')"><em>看不清？</em></a>
+      </div>
+      <div class="ation">点击框内文字输入验证码</div>
+      <div class="val_input clearfix">
+          <a href="javascript:;"><b num='0' style="backgroundPositionX:0px; backgroundPositionY:0px; background-position: 0 0;"></b></a>
+          <a href="javascript:;"><b num='1' style="backgroundPositionX:-55px; backgroundPositionY:0px; background-position: -55px 0;"></b></a>
+          <a href="javascript:;"><b num='2' style="backgroundPositionX:-110px; backgroundPositionY:0px; background-position: -110px 0;"></b></a>
+          <a href="javascript:;"><b num='3' style="backgroundPositionX:0px; backgroundPositionY:-40px; background-position: 0 -40px;"></b></a>
+          <a href="javascript:;"><b num='4' style="backgroundPositionX:-55px; backgroundPositionY:-40px; background-position: -55px -40px;"></b></a>
+          <a href="javascript:;"><b num='5' style="backgroundPositionX:-110px; backgroundPositionY:-40px; background-position: -110px -40px;"></b></a>
+          <a href="javascript:;"><b num='6' style="backgroundPositionX:0px; backgroundPositionY:-80px; background-position: 0 -80px;"></b></a>
+          <a href="javascript:;"><b num='7' style="backgroundPositionX:-55px; backgroundPositionY:-80px;  background-position: -55px -80px;"></b></a>
+          <a href="javascript:;"><b num='8' style="backgroundPositionX:-110px; backgroundPositionY:-80px;  background-position: -110px -80px;"></b></a>
+      </div>
+  </div>
+</div>
+
+
+</div><!-- lastUpdate: 2017-03-03 18:04:29 -->  <!-- 直播开播手机验证 -->
+<div class="real_cert" id='js_phone_div' style='display:none;'>
+  <div class="title">
+    <a class="r_close" href="javascript:;">×</a>
+  </div>
+  <div class="cont">
+    <p id='js_ident_name'>完成实名验证后才能进行直播</p>
+    <a class="real_btn" href="/member/cp/changeIdent" id='js_ident_button'>立即前往</a>
+  </div>
+</div>
+
+<script>
+//验证码倒计时
+// function countDown(obj,second,textvalue){
+//   if(second>=0){
+//         $(".js_sendvoice").attr('disabled', true);
+//     //obj.disabled = true;
+//     obj.value = textvalue+'('+second+')';
+//     second--;
+//     setTimeout(function(){countDown(obj,second,textvalue);},1000);
+//   }else{
+//         $(".js_sendvoice").attr('disabled', false);
+//     //obj.disabled = false;
+//     obj.value = '重新获取';
+//   }
+// }
+//   //发送短信
+// function countDownYz(obj,second)
+// {
+//     //验证前端手机号
+//   var reg_bindphone = mobile_phone;
+//   if(reg_bindphone == '')
+//   {
+//     $.dialog.tips_black('手机号还未填写');
+//     return false;
+//   }else
+//     {
+//         //必须11位 + 13开头
+//         var isPhone = (/^(13|15|18|17)[0-9]{9}$/.test(reg_bindphone) ? true : false);
+//         if(!isPhone){
+//             $.dialog.tips_black('请输入正确的手机号');
+//             return false;
+//         }
+//     }
+
+//     //验证前端校验码
+//     var phonenum_captcha = $('#phonenum_captcha').val();
+//   if(phonenum_captcha == '')
+//   {
+//     $.dialog.tips_black('请输入校验码');
+//     return false;
+//   }else
+//     {
+//         //必须4位 + 数字格式
+//         var isPhonenum_captcha = (/^[0-9]{4}$/.test(phonenum_captcha) ? true : false);
+//         if(!isPhonenum_captcha){
+//             //$.dialog.tips_black('校验码格式不正确');
+//             //return false;
+//         }
+//     }
+
+//      $(".js_sendvoice").attr('disabled', true);
+//     //ajax验证前端校验码
+//     $.post("/curl/smscp/get_phone_code",
+//         {bindphonenum:reg_bindphone,phonenum_captcha:phonenum_captcha},
+//         function(json){
+//             switch (json.result)
+//             {
+//                 case 0:
+//                     //发送成功
+//                     //$.dialog.tips_black("短信验证码发送成功,请注意查收!");
+//                     $("#bindphone_msg").html("短信验证码已发送至您的手机");
+//                     //倒计时:xx秒后重新获取
+//                     countDown(obj,second,"短信验证");
+//                     break;
+//                 default:
+//                     $.dialog.tips_black(json.error);
+//                     $('#js_reg_captcha').click();
+//                     $('#phonenum_captcha').val('');
+//                     $(".js_sendvoice").attr('disabled', false);
+//             }
+//         },
+//         "json"
+//     );
+// }
+
+// //发送语音短信
+// function countDownVoidYz(obj,second)
+// {
+//     //验证前端手机号
+//   var reg_bindphone = mobile_phone;
+//   if(reg_bindphone == '')
+//   {
+//     $.dialog.tips_black('手机号还未填写');
+//     return false;
+//   }else
+//     {
+//         //必须11位 + 13开头
+//         var isPhone = (/^(13|15|18|17)[0-9]{9}$/.test(reg_bindphone) ? true : false);
+//         if(!isPhone){
+//             $.dialog.tips_black('请输入正确的手机号');
+//             return false;
+//         }
+//     }
+
+//     //验证前端校验码
+//     var phonenum_captcha = $('#phonenum_captcha').val();
+//   if(phonenum_captcha == '')
+//   {
+//     $.dialog.tips_black('请输入校验码');
+//     return false;
+//   }else
+//     {
+//         //必须4位 + 数字格式
+//         var isPhonenum_captcha = (/^[0-9]{4}$/.test(phonenum_captcha) ? true : false);
+//         if(!isPhonenum_captcha){
+//             //$.dialog.tips_black('校验码格式不正确');
+//             //return false;
+//         }
+//     }
+
+//     $(".js_sendvoice").attr('disabled', true);
+//     //ajax验证前端校验码
+//     $.post("/curl/smscp/get_phone_voice",
+//         {bindphonenum:reg_bindphone,phonenum_captcha:phonenum_captcha},
+//         function(json){
+//             switch (json.result)
+//             {
+//                 case 0:
+//                     //发送成功
+//                     //$.dialog.tips_black("短信验证码发送成功,请注意查收!");
+//                     $("#bindphone_msg").html("语音验证码已拨通至您的手机");
+//                     //倒计时:xx秒后重新获取
+//                     countDown(obj,second,"语音验证");
+//                     break;
+//                 default:
+//                     $.dialog.tips_black(json.error);
+//                     $('#js_reg_captcha').click();
+//                     $('#phonenum_captcha').val('');
+//                     $(".js_sendvoice").attr('disabled', false);
+//             }
+//         },
+//         "json"
+//     );
+// }
+
+// //发送短信提交
+// function submit_bindphonenum(obj)
+// {
+//     //验证前端手机号
+//   var reg_bindphone = mobile_phone;
+//   if(reg_bindphone == '')
+//   {
+//     $.dialog.tips_black('手机号还未填写');
+//     return false;
+//   }else
+//     {
+//         //必须11位 + 13开头
+//         var isPhone = (/^(13|15|18|17)[0-9]{9}$/.test(reg_bindphone) ? true : false);
+//         if(!isPhone){
+//             $.dialog.tips_black('请输入正确的手机号');
+//             return false;
+//         }
+//     }
+
+//     //验证前端校验码
+//     var phonenum_captcha = $('#phonenum_captcha').val();
+//   if(phonenum_captcha == '')
+//   {
+//     $.dialog.tips_black('请输入校验码');
+//     return false;
+//   }else
+//     {
+//         //必须4位 + 数字格式
+//         var isPhonenum_captcha = (/^[0-9]{4}$/.test(phonenum_captcha) ? true : false);
+//         if(!isPhonenum_captcha){
+//             //$.dialog.tips_black('校验码格式不正确');
+//             //return false;
+//         }
+//     }
+
+//     //短信验证码
+//     var yzphonenum = $('#yzphonenum').val();
+//   if(yzphonenum == '')
+//   {
+//     $.dialog.tips_black('请输入短信验证码');
+//     return false;
+//   }else
+//   {
+//       //必须6位 + 数字格式
+//       var isyzphonenum = (/^[0-9]{6}$/.test(yzphonenum) ? true : false);
+//       if(!isyzphonenum){
+//           //$.dialog.tips_black('短信验证码格式不正确');
+//           //return false;
+//       }
+//   }
+
+//   $('#phonebind_submit span').html('提交中…');
+//   $('#phonebind_submit').attr('disabled',true);
+//     //ajax
+//     $.post("/curl/smscp/live_room",
+//         {bindphonenum:reg_bindphone,phonenum_captcha:phonenum_captcha,yzphonenum:yzphonenum},
+//         function(json){
+//             switch (json.result)
+//             {
+//                 case 0:
+//                     //成功
+//                     js_live_room();
+//                     break;
+//                 default:
+//                     //默认错误:重新输入验证码
+//                     var _img = $("#reg_captcha").data('src') + '?_t=' + Math.random(1);
+//                     $("#reg_captcha").attr('src', _img);
+//                     $.dialog.tips_black(json.error);
+//             }
+//       $('#phonebind_submit span').html('提交');
+//       $('#phonebind_submit').attr('disabled',false);
+//         },
+//         "json"
+//     );
+// }
+
+// //国外手机用户
+// var update_out = {
+//   dialog: null,
+//   show: function () {
+//     update_cate.dialog = $.dialog({ title: '开播验证', content: document.getElementById('inter_tags'), lock: true});
+//     $('#js_phone_div').hide();
+//   }
+// };
+
+// $(function(){
+//   $('.notice_close').click(function(){
+//       $('#js_phone_div').hide();
+//   });
+
+//   $('#js_inter_phone_out').click(function(){
+//       $.dialog({ title: '开播验证', content: document.getElementById('inter_tags'), lock: true});
+//       $('#js_phone_div').hide();
+//   });
+
+//     //验证国外手机号提交
+//     $("#outphonenum_submit").click(function(){
+//         //验证前端国际手机号
+//         var outphonenum = mobile_phone;
+//         if(outphonenum == '')
+//         {
+//             $.dialog.tips_black('您的手机号还未填写.');
+//             return false;
+//         }else
+//         {
+//             //必须大于7位
+//             if(outphonenum.length<7){
+//                 $.dialog.tips_black('请输入正确的手机号.');
+//                 return false;
+//             }
+//         }
+
+//         //国际 验证前端校验码
+//         var outphonenum_captcha = $('#outphonenum_captcha').val();
+//         if(outphonenum_captcha == '')
+//         {
+//             $.dialog.tips_black('请输入校验码.');
+//             return false;
+//         }
+
+//         //ajax
+//         $.post("/curl/smscp/out_live_room",
+//             {bindoutphonenum:outphonenum,outphonenum_captcha:outphonenum_captcha},
+//             function(json){
+//                 switch (json.result)
+//                 {
+//                     case 0:
+//                         //成功
+//                         js_live_room();
+//                         break;
+//                     default:
+//                         //默认错误:重新输入验证码
+//                         var _img = $("#login_captcha").data('src') + '?_t=' + Math.random(1);
+//                         $("#login_captcha").attr('src', _img);
+//                         $.dialog.tips_black(json.error);
+//                 }
+//             },
+//             "json"
+//         );
+//     });
+// });
+
+function checkRoomCover(callback) {
+  var tip = '';
+  var getRestTime = function (day) {
+    var expTime,
+        sec;
+    day = day ? parseInt(day, 10) : 0;
+    expTime = new Date();
+    expTime.setDate(expTime.getDate() + day);
+    expTime.setHours(24);
+    expTime.setMinutes(0);
+    expTime.setSeconds(0);
+    sec = expTime.getTime() - new Date().getTime();
+    return sec;
+  };
+  var coverstatus = $('#js_start_show').data('coverstatus');
+
+  if (LocalStorage.get('nocovertip')) {
+    callback(1);
+    return;
+  }
+
+  if (coverstatus == -1) {
+    tip = '请先上传封面再开播哦';
+  } else if (coverstatus == 2) {
+    tip = '新封面审核未通过，是否重新上传？';
+  }
+
+  if (coverstatus == -1 || coverstatus == 2) {
+    $.dialog({
+      content: tip,
+      lock: true,
+      width: 300,
+      button: [{
+        name: '去上传',
+        callback: function () {
+          location.href = '/room/my';
+        }
+      }, {
+        name: '直接开播',
+        callback: function () {
+          callback();
+        }
+      }]
+    });
+
+  } else {
+    callback(1)
+  }
+
+
+  LocalStorage.set('nocovertip', 1, getRestTime() / 1000);
+}
+
+
+function js_live_room(){
+  if(typeof(is_room) !='undefined' && is_room == 1){
+    room_live_room();
+  }else{
+    defaut_live_room();
+  }
+  $('#inter_tags').hide();
+  $('#js_phone_div').hide();
+}
+
+
+$(function(){
+  $('.r_close').click(function(){
+      $('#js_phone_div').hide();
+  });
+});
+</script><div class="fglo_bg">
+    <div class="foot_global">
+        <ul class="about">
+            <li><a href="/cms/about/about_us.html">关于我们</a><span>|</span></li>
+            <li><a href="/member/customer_service" target="_blank">联系客服</a><span>|</span></li>
+            <li><a href="https://zhaopin.douyu.com">招聘信息</a><span>|</span></li>
+            <li><a href="/cms/about/cooperate.html">友情链接</a><span>|</span></li>
+            <li><a href="/cms/zhibo/list_16.shtml" target="_blank">我要直播</a><span>|</span></li>
+            <li><a href="/member/message/release" onclick="try{ check_message(); return false; } catch(e){}">意见反馈</a><span>|</span></li>
+            <li><a href="/cms/gong/201509/22/2229.shtml"  target="_blank">版权保护投诉指引</a><span>|</span></li>
+            <li><a href="https://www.douyu.com/cms/gong/201605/30/3643.shtml"  target="_blank">斗鱼官方QQ号</a></li>
+        </ul>
+
+    </div>
+</div>
+<!--footer-end--><link rel="stylesheet" type="text/css" href="https://staticlive.douyucdn.cn/common/js/select2/select2-4.min.css?v=v73470" /><link rel="stylesheet" type="text/css" href="https://staticlive.douyucdn.cn/common/douyu/style/user-center/select-prov.css?v=v73470" /><link rel="stylesheet" type="text/css" href="https://staticlive.douyucdn.cn/common/douyu/style/user-center/income.css?v=v73470" /><script type="text/javascript" charset="utf-8" src="https://staticlive.douyucdn.cn/common/js/select2/select2-4.min.js?v=v73470"></script><script type="text/javascript" charset="utf-8" src="https://staticlive.douyucdn.cn/common/js/usercenter/cities-data.js?v=v73470"></script><script type="text/javascript" charset="utf-8" src="https://staticlive.douyucdn.cn/common/js/usercenter/select-prov.js?v=v73470"></script><script type="text/javascript" charset="utf-8" src="https://staticlive.douyucdn.cn/common/js/usercenter/room-setting.js?v=v73470"></script><script type="text/javascript">
+
+var room_name="rr585\u7684\u76f4\u64ad\u95f4";
+var specific_str='';
+var room_rtmp = '21';
+var room_notice = null;
+var room_gg_status = 1;
+var my_weight = 0;
+var room_gg_pass = 0;
+var ident_status = '2';
+var is_room      = 1;
+var cateId = 250;
+var childId = 0;
+var childCount = 0;
+    var update_cate = {
+        tag_id: cateId,
+		id: childId,
+        dialog: null,
+        dialog_ld: null,
+        loading: {
+            ld: null,
+            show: function () {
+                update_cate.loading.ld = $.dialog({title: '正在提交中…', lock: true});
+            },
+            hide: function () {
+                if (update_cate.loading.ld)
+                    update_cate.loading.ld.close();
+            }
+        },
+        show: function () {
+            var content = '',
+                name = {
+                    total:childCount
+                };
+                sendData = {
+                    tag_id: cateId,
+                    id: childId
+                };
+            var url = '/CateList/getColumnList';
+             $.ajax({
+                 url: url,
+                 type: 'GET',
+                 dataType: 'html',
+                 async: false,
+                 data: {tagId: cateId, relate: 1, showVertical: 0},
+                 success: function (data) {
+                     content = data;
+                 }
+             })
+             update_cate.dialog = $.dialog({
+                 title: '<span style="float: right;color: #000;font-size: 14px;margin-right: 10px;">如需直播体育相关内容，请前往<a href="http://live.qq.com/" target="_blank" style="color: #3D3DEE;text-decoration:underline">企鹅直播</a></span>直播分类',
+                 content: content,
+                 fixed: true,
+                 width: '720px',
+                 top: '200px',
+                 lock: true
+             });
+			pager.create({
+				warp: '#change_tags',
+				limit: 60,
+				offset: 0,
+				step: 5,
+                showVertical: 0,
+				success: function(data, index, param) {
+					var $trigger = $(param.trigger),
+						total = $trigger.data('total'),
+						index = $trigger.closest('.tag_item').data('index');
+
+					if (total <= 1 && index > 0) {
+						param.contentBox.find('.tag_trigger').trigger('click');
+					}
+                    if(index == 0){
+                        $("#tag_item_1 ul li a[data-id='"+ update_cate.tag_id +"']").addClass('tag_check');
+                    }
+                    if( index== 1 ){
+                        $("#tag_item_2 ul li a[data-id='"+ update_cate.id +"']").addClass('tag_check');
+                    }
+				},
+				callback: function(param) {
+					$(this.config.warp).on('click', '#tag_back', function() {
+						$('#tag_item_0, #tag_item_1').show();
+						$('#tag_item_2').hide();
+					});
+
+					var $trigger = $(param.trigger),
+						$parent = $trigger.closest('.tag_item'),
+						total = $trigger.data('total'),
+                        index = $parent.data('index');
+
+					if ($trigger.hasClass('tag_trigger')) {
+						$trigger.addClass('tag_check').parent().siblings().find('.tag_trigger').removeClass('tag_check');
+
+						if(index == 1){
+                            name.tag_name = $trigger.text();
+                            name.child_name = "";
+                            name.total = total;
+                        }
+                        if( index == 2 ){
+                            name.child_name = $trigger.text() || "";
+                        }
+						if (total <= 1) {
+							if (total < 1) {
+								var pid = $trigger.data('pid'),
+									id = $trigger.data('id'),
+									short = $trigger.data('short'),
+									data = {};
+
+								if (pid) {
+									data = {
+										tag_id: pid,
+										id: id
+									};
+								} else {
+									data = {
+										tag_id: id,
+                                        id: 0,
+										short: short
+									};
+								}
+
+								update_cate.submit(data, name);
+                                return;
+							}
+
+						}
+
+						switch ( $parent.data('index') ) {
+							case 1:
+								$('#tag_item_0, #tag_item_1').hide();
+								$('#tag_item_2').show();
+								break;
+							case 0:
+							case 2:
+								$('#tag_item_0, #tag_item_1').show();
+								$('#tag_item_2').hide();
+								break;
+						}
+					}
+				}
+			});
+
+        },
+        submit: function (data, name) {
+            if (update_cate.dialog) {
+                update_cate.dialog.close();
+            }
+            update_cate.loading.show();
+
+			submitData = $.extend(true, data, {
+                'ctn': get_cval()
+			});
+
+            $.post('/room/my/update_room_cate', submitData, function (result) {
+                if(result.error == 0){
+                    update_cate.loading.hide();
+                    later_tip();
+                    update_cate.tag_id = data.tag_id;
+                    update_cate.id = data.id;
+                    var msg = name.tag_name;
+                    if( name.total>1){
+                        if(name.child_name != ''){
+                            msg = msg + '——' + name.child_name;
+                        }
+                    }
+                    $("#tag_show").html('<li><a href="javascript:void(0);" class="tag_check01">' + msg + '</a></li>');
+                    setTimeout(function () {
+                        window.location.reload(true);
+                    }, 3000);
+
+                }else{
+                    update_cate.loading.hide();
+                    $.dialog.tips_black('<font color="#FFF">房间信息修改失败，请重试！</font>', 3);
+                }
+            });
+        }
+    };
+$(document).ready(function(){
+    $(".js_tipsy").bind("mousemove mouseleave", function(event){
+        if(event.type == 'mouseleave')
+        {
+            $('#tipsy').hide();
+        }
+        else
+        {
+            var tpos = $(this).offset();
+            $('#tipsy').css('top',tpos.top + $(this).outerHeight(true) + 6);
+
+            var modify_left = ($('#tipsy').outerWidth(true) - $(this).outerWidth(true)) / 2;
+            $('#tipsy').css('left',tpos.left - modify_left);
+
+            $("#tiptit").html($(this).data("title"));
+            $('#tipsy').show();
+        }
+    });
+
+  	$('#js_update_cate').click(update_cate.show);
+    //$("#change_tags li").click(update_cate.submit);
+//    $("#change_tags").on('click','li.tag_li',update_cate.submit);
+
+	$('#copy_rtmp_url').zclip({
+        path:'/common/images/ZeroClipboard.swf',
+        copy:$('#rtmp_url').val(),
+		afterCopy:function(){
+            $.dialog.tips_black("已成功复制rtmp地址", 1.5);
+        }
+    });
+
+	$('#copy_rtmp_val').zclip({
+        path:'/common/images/ZeroClipboard.swf',
+        copy:$('#rtmp_val').val(),
+		afterCopy:function(){
+            $.dialog.tips_black("已成功复制直播码", 1.5);
+        }
+    });
+
+
+    var close_live_room = function(data){
+        var reloadUrl = location.href.split('?')[0]+'?'+ new Date().getTime();
+        $.dialog({
+            content: '直播已经关闭!<br /><span style=" display:block; width : 260px; color:red;font-size: 10px;font-weight:700;">请再次确认您已经关闭了OBS等推流软件！如推流软件没有关闭，仍然可在自己的直播间看到画面。</span>',
+            okVal: '确定',
+            ok : function(){ },
+            close: function(){
+                liveEndFeedBack.show(data);
+            }
+        });
+    };
+
+
+
+    $("#js_close_show").click(function(){
+        confirm_msg('您确定要关闭直播吗？<br /><span style="color:red;font-size: 10px;font-weight:700;">请先关闭OBS等推流软件再关闭直播</span>',
+            function(){
+                //loading.show();
+                $.ajax({
+                    url : '/room/my/close_show',
+                    type : 'POST',
+                    dataType : 'json',
+                    data : {
+                        ajax: 1, 'ctn': get_cval()
+                    },
+                    success : function(data){
+                        if((data.error-0) === 0){
+                            close_live_room(data);
+                        } else{
+                            alert(data.msg);
+                        }
+                    }
+                })
+            });
+    });
+
+    $("#js_start_show,#js_one_show").click(function(){
+        var $el = $(this);
+
+        if($el.data('doing') == 1) { return false; }
+
+        $el.data('doing', 1);
+
+        $.getJSON('/member/cp/get_phone_status',function(data){
+            $el.data('doing', 0);
+
+            if(data.result == -1){
+                $.dialog.alert("您还没有验证手机号，不能开启直播");
+                return;
+            }else if(data.result == 2){
+                // ident_status = data.error.ident_status;
+                // mobile_phone = data.error.mobile_phone;
+                // phonestatus  = data.error.phonestatus ;
+                // $('#js_reg_captcha').click();
+                // $('#phonenum_captcha').val('');
+                if(data.error.ident_status == 1){
+                    $('#js_ident_name').html('正在审核中，请审核通过后再来开播……');
+                    $('#js_ident_button').html('确定');
+                }
+                $('#js_phone_div').show();
+                return;
+            }else{
+                js_live_room();
+            }
+        });
+    });
+
+
+	$("#s_cata").on("blur",function(e){
+		if((specific_str!=$("#s_cata").val())){
+
+			var str=$("#s_cata").val();
+
+            if(!/^[a-z]{1}[a-z0-9]{2,11}$/.test(str.toLowerCase())){
+                $.dialog.tips_black('个性域名只能是全英文或英文+数字,限制3-12个字符');
+                setTimeout(function(){$("#s_cata").val(specific_str)}, 1000);
+                return false;
+            }
+            $.dialog.confirm('确认修改个性域名么，下次修改需等待30天，确定?',function(){
+                $.ajax({
+                    type: "POST",
+                    url: "/room/my/update_room_specific",
+                    data: {'s_cata': str, 'ctn': get_cval()},
+                    dataType: "json",
+                    success: function (json) {
+                        if (json.error != 0) {
+                            $("#s_cata").val(specific_str);
+                            $.dialog.tips_black("<span style='color: red;'>修改失败：</span>"+json.msg);
+                        } else {
+                            $("#s_cata").val(str);
+                            specific_str = str;
+                            later_tip();
+                        }
+                    }
+                });
+            });
+		}
+	});
+
+	$("#change_send_config").click(function(){
+		var $this = $('#change_send_config');
+		$this.data('doing', 1);
+		$.dialog({
+			title: '切换推流线路',
+                                lock:true,
+			content: '请选择线路：<select id="js_send_select"><option value="23">全网推流线路一A(空闲)</option><option value="21">全网推流线路一B(繁忙)</option><option value="20">全网推流线路三B(较繁忙)</option><option value="22">全网推流线路三A(较空闲)</option></select>',
+			init: function(){
+				$("#js_send_select").val(room_rtmp);
+			},
+			ok: function(){
+				var rtmp_id = $("#js_send_select").val();
+				if(rtmp_id != room_rtmp)
+				{
+					loading.show();
+					$.post('/room/my/update_room_send', { 'rtmp_id': rtmp_id, 'ctn': get_cval() }, function(){
+						room_rtmp = rtmp_id;
+						loading.close();
+						alert_msg('修改成功！下次开播时生效，如正在直播需关闭后再开播。', '', 4);
+					});
+				}
+			}
+		});
+		return false;
+	});
+
+    var originalIndex = $("#specific_status")[0].selectedIndex;
+    $("#specific_status").on("change",function(e){
+        loading.show();
+        var status = $(this).val();
+        $.post('/room/my/update_specific_status',{status:status,'ctn': get_cval()},function(data){
+            loading.close();
+            data = eval("("+data+")");
+            if(data.error==0){
+                $.dialog.tips_black('已'+$("#specific_status option:selected").text()+'个性域名，请等待缓存更新');
+            }else{
+                $.dialog.tips_black('更新个性域名状态失败：<span style="color: red">'+data.msg+"</span>");
+                setTimeout(function(){$("#specific_status ")[0].selectedIndex=originalIndex}, 1000); // 重置为原option
+            }
+        });
+    });
+
+	$("#js_live_notice").click(function(event) {
+//		if(0 < 3000000)
+//		{
+//			alert_msg('开播预告功能需体重大于 3T 才能使用');
+//			return false;
+//		}
+		if(room_notice !== null && room_notice.show_time > Math.round(new Date().getTime()/1000)) {
+			$.dialog({
+				title: '房间预告',
+				content: '你已添加了开播时间为 ' + timetodate_all(room_notice.show_time) + ' 的预告，确定要取消吗？',
+				ok: function(){
+					loading.show();
+					$.post('/room/my/room_notice_del', {'ctn': get_cval(), id: room_notice.id }, function(data) {
+						loading.close();
+						room_notice = null;
+						$.dialog.tips_black('房间预告已取消');
+					});
+				},
+				cancelVal: '关闭',
+				cancel: true
+			});
+		} else {
+			$.dialog({
+				title: '添加房间预告',
+				id: 'live_notice_add',
+				content: document.getElementById('js_live_notice_form'),
+                lock:true,
+				ok: function(){
+					var title = $("#js_live_title").val();
+					title = $.trim(title);
+					if (title == '') {
+						alert('标题不能为空');
+						return false;
+					}
+
+                                            if (title.length> 15) {
+						alert('标题不能超过15个字');
+						return false;
+					}
+
+					var show_time = $("#js_live_time").val();
+					if (show_time == '') {
+						alert('开播时间不能为空');
+						return false;
+					}
+
+					loading.show();
+					$.post('/room/my/room_notice', {'ctn': get_cval(),
+							title: title, show_time: show_time
+						}, function(data) {
+						loading.close();
+						if (data.error == 0) {
+							room_notice = data.msg;
+							$.dialog.tips_black('房间预告添加成功');
+						} else {
+							alert_msg(data.msg);
+						}
+					}, 'json');
+
+				},
+				cancel: true
+			});
+		}
+		return false;
+	});
+});
+
+
+var pwd_str='';
+function change_pwd()
+{
+	$.dialog.prompt('请输入房间密码：', function(str){
+		str = $.trim(str);
+		if(str){
+			var reg = /^([0-9]\d*)$/;
+			if(!reg.test(str))
+			{
+				$.dialog.tips_black('请输入整数');
+				return false;
+			}
+		}
+
+		loading.show();
+		$.ajax({
+			type: "POST",
+			url: "/room/my/change_pwd",
+			data:{'pwd' : str, 'ctn': get_cval()},
+			dataType: "json",
+			success:function(json){
+				loading.close();
+				if(json.ret!= 0){
+					$.dialog.tips_black(json.msg);
+				}else{
+					pwd_str=str;
+					$.dialog.tips_black('设置成功');
+					//$("#chagepwd").html(str ? '修改房间密码' : '设置房间密码');
+				}
+			}
+		});
+
+	}, pwd_str);
+}
+
+function upload_age_limit(){
+	$.dialog({
+		id: 'setagelimit',
+		title: '用户发言设置',
+		content:document.getElementById('js_speak_set'),
+		ok: function () {
+			var str=$("#s_agelimit").val();
+			str = $.trim(str);
+			$("#s_agelimit").val(str);
+
+			var reg=/^\d*$/;
+			if(!reg.test(str)){
+				$.dialog.tips_black('最低注册时间填写有误');
+				return false;
+			}
+
+
+			var speak_cd=$("#speak_cd").val();
+			speak_cd = $.trim(speak_cd);
+			$("#speak_cd").val(speak_cd);
+
+			if(!reg.test(speak_cd)){
+				$.dialog.tips_black('CD发言倍数填写有误');
+				return false;
+			}
+			speak_cd = parseInt(speak_cd, 10);
+			if(speak_cd < 1 || speak_cd > 100){
+				$.dialog.tips_black('CD发言倍数只能在1~100之间');
+				return false;
+			}
+
+			loading.show();
+			$.ajax({
+				type: "POST",
+				url: "/room/my/speak_set",
+				data:$("#js_speak_set").serialize() + '&ctn=' + get_cval(),
+				success:function(){
+					loading.close();
+					$.dialog.tips_black('提交成功！');
+				}
+			});
+		},
+		cancelVal: '关闭',
+        lock:true,
+		cancel: true
+	});
+
+}
+
+var editor;
+
+function update_show_details(obj){
+    if($(obj).data('locked') == true){
+        $.dialog.tips_black('您暂时不能修改房间公告！');
+        return false;
+    }
+	if($(obj).data('update') == 'yes')
+	{
+		if($(obj).data('doing') == 'yes')
+			return false;
+
+		var str=$("#set_show_details").val();
+		$(obj).html('保存中…').data('doing', 'yes');
+		$.ajax({
+			type: "POST",
+			url: '/room/my/update_room_show_details',
+			data:{'show_detail' : str, 'ctn': get_cval()},
+			dataType: "json",
+			success:function(json){
+				if(json.ret!= 0){
+					$.dialog.tips_black(json.msg);
+                    $(obj).html('修改').removeData('doing update');
+                    $("#show_details").html('');
+				}else{
+					$(obj).html('修改').removeData('doing update');
+					$("#show_details").html(str);
+					later_tip();
+				}
+			}
+		});
+	} else {
+		var show_details = $("#show_details").html();
+		$("#show_details").html('<textarea id="set_show_details" style="width:640px;height:80px;" maxlength="128">'+show_details+'</textarea>');
+		$(obj).html('保存').data('update', 'yes');
+	}
+}
+
+function later_tip()
+{
+	$.dialog.tips_black('<font color="#FFF">房间信息修改成功，需要1~2分钟更新，请耐心等待</font>', 3);
+}
+
+function getByteLen(val) {
+	var len = val.length;
+	if(val.match(/[^\x00-\xff]/ig) != null)
+	{
+		var alen = val.match(/[^\x00-\xff]/ig).length;
+		len = len + alen*2
+	}
+
+	return len;
+}
+
+function get_cval()
+{
+	return get_cookie('ccn');
+}
+
+function room_live_room(){
+    var $this = $("#js_start_show");
+    var nocovertip = 'nocovertip';
+    var param = {};
+    var getRestTime = function (day) {
+        var expTime,
+            sec;
+        day = day ? parseInt(day, 10) : 0;
+        expTime = new Date();
+        expTime.setDate(expTime.getDate() + day);
+        expTime.setHours(24);
+        expTime.setMinutes(0);
+        expTime.setSeconds(0);
+        sec = expTime.getTime() - new Date().getTime();
+        return sec;
+    };
+
+    $(this).data('doing', 1);
+    loading.lock = true;
+    loading.show('正在提交，请勿刷新页面……');
+    var csrf_cookie_name = "ctn";
+    param[csrf_cookie_name] = get_cval();
+    if (LocalStorage.get(nocovertip)) param['notshowtip'] = 1; // 是否不需要提示
+    $.post('/room/my/first_show', param,
+        function(back_data){
+            var tip_icon = 'warning';
+            loading.close();
+            $this.data('doing', 0);
+            if (back_data.error == 3) {
+                $.dialog.alert("异常关闭<br />原因：<b>" + back_data.msg.reason + "</b><br />剩余限时：<span style='color: red'>" + back_data.msg.open_time + "</span>");
+                return;
+            } else if (back_data.error == 12 || back_data.error == 13) {
+                if (LocalStorage.get(nocovertip)) {
+                    tip_icon = 'succeed';
+                    showstartLiveError(tip_icon, back_data);
+                } else {
+                    $.dialog({
+                        content: back_data.msg,
+                        lock: true,
+                        width: 300,
+                        button: [{
+                            name: '去上传',
+                            callback: function () {
+                                location.href = '/room/my';
+                            }
+                        }, {
+                            name: '直接开播',
+                            callback: function () {
+                                var csrf_cookie_name = "ctn";
+                                param[csrf_cookie_name] = get_cval();
+                                param['notshowtip'] = 1;
+                                $.post('/room/my/first_show', param).then(function () {
+                                    window.location.href = '/1721834?_r=' + Math.random();
+                                });
+                            }
+                        }]
+                    });
+                }
+
+                LocalStorage.set(nocovertip, 1, getRestTime() / 1000);
+                return;
+            } else if (back_data.error == 0) {
+                $this.addClass('switch_on');
+                tip_icon = 'succeed';
+                showstartLiveError(tip_icon, back_data);
+                return;
+            } if(back_data.error == 9){
+                locationVerify.init(back_data.msg.phone,back_data.msg);
+                return;
+            }
+
+            showstartLiveError(tip_icon, back_data);
+        }, 'json');
+}
+
+function showstartLiveError(tip_icon, back_data) {
+    $.dialog({
+        icon: tip_icon,
+        content: back_data.msg,
+        lock: true,
+        okVal: '确定',
+        ok: function () {
+            //succeed 则刷新页面  否则按照要求来刷新页面
+            if (tip_icon == 'succeed')
+                window.location.href = '/1721834?_r=' + Math.random(1);
+            else {
+                if (back_data.error == 10) {
+                    window.location.href = 'http://mail.qq.com';
+                } else if (back_data.error == 1) {
+                    window.location.href = '/room/my';
+                } else if(back_data.error == 11 || back_data.error == 2) {
+                    window.location.href = '/member/cp/changeIdent';
+                }
+            }
+            return true;
+        }
+    });
+}
+
+var allTagList = {"4":{"name":"\u989c\u503c\u7206\u8868","count":"81700"},"6":{"name":"\u65b0\u79c0","count":"226957"},"12":{"name":"\u5fa1\u5b85\u8fbe\u4eba","count":"59455"},"15":{"name":"\u4e8c\u6b21\u5143","count":"22636"},"18":{"name":"\u6597\u9c7c\u58f0\u4f18","count":"32959"},"23":{"name":"\u57df\u5916\u98ce\u60c5","count":"8148"},"42":{"name":"\u8d5b\u4e8b\u76f4\u64ad","count":"11487"},"43":{"name":"\u4eba\u5728\u65c5\u9014","count":"17113"},"69":{"name":"\u9c7c\u884c\u5929\u4e0b","count":"11327"},"86":{"name":"\u9c7c\u79c0\u73b0\u573a","count":"4863"},"105":{"name":"MOBA","count":"5943"},"106":{"name":"MMORPG","count":"4052"},"107":{"name":"ORPG","count":"1347"},"108":{"name":"FPS","count":"11362"},"8":{"name":"\u804c\u4e1a\u9009\u624b","count":"22110"},"20":{"name":"\u6e38\u620f\u5973\u795e","count":"14090"},"34":{"name":"\u738b\u8005\u5927\u817f","count":"25133"},"33":{"name":"\u4e0a\u5206\u8fbe\u4eba","count":"53918"},"3":{"name":"\u56fd\u670d\u7b2c\u4e00","count":"58331"},"31":{"name":"\u82b1\u5f0f\u7ade\u6280\u573a","count":"13249"},"32":{"name":"\u5929\u68af\u51b2\u51fb","count":"16472"},"71":{"name":"\u9c9c\u8089\u76f4\u64ad","count":"25647"},"53":{"name":"\u5200\u59b9\u840c\u65b0","count":"2781"},"55":{"name":"\u5200\u5854RPG","count":"3340"},"56":{"name":"\u5929\u68af\u9ad8\u73a9","count":"3198"},"72":{"name":"\u624b\u64ad\u8fbe\u4eba","count":"13622"},"19":{"name":"\u97f3\u4e50\u7535\u53f0","count":"23370"},"64":{"name":"\u661f\u9645\u8c10\u4f1a","count":"1494"},"65":{"name":"\u5373\u65f6\u6218\u7565","count":"4949"},"9":{"name":"\u6211\u662f\u6b4c\u624b","count":"37623"},"24":{"name":"\u5f71\u89c6\u5929\u5802","count":"23772"},"49":{"name":"moba\u624b\u6e38","count":"2611"},"27":{"name":"\u5361\u724c\u7ade\u6280","count":"12356"},"41":{"name":"\u6597\u9c7c\u6bd2\u5976","count":"35275"},"25":{"name":"\u89d2\u8272\u626e\u6f14","count":"33542"},"26":{"name":"\u7b56\u7565\u7ecf\u8425","count":"11360"},"91":{"name":"\u5929\u6daf\u660e\u6708\u5200","count":"3271"},"92":{"name":"\u5251\u7f513","count":"1439"},"93":{"name":"\u5251\u7075","count":"1586"},"94":{"name":"\u602a\u7269\u730e\u4ebaol","count":"616"},"95":{"name":"\u5192\u9669\u5c9b2","count":"699"},"96":{"name":"\u795e\u4e4b\u6d69\u52ab","count":"269"},"99":{"name":"\u6c7d\u8f66\u89c6\u9891","count":"842"},"36":{"name":"\u9a6c\u91cc\u5965","count":"2313"},"37":{"name":"\u6050\u6016\u6e38\u620f","count":"9826"},"59":{"name":"FC\u6bc1\u7ae5\u5e74","count":"2709"},"60":{"name":"\u8857\u673a\u5236\u9738","count":"1372"},"62":{"name":"\u7ea2\u8272\u8b66\u6212","count":"846"},"63":{"name":"\u5e1d\u56fd\u65f6\u4ee3","count":"474"},"74":{"name":"\u94a2\u94c1\u5c11\u5973","count":"2340"},"76":{"name":"\u8230\u5a18","count":"998"},"77":{"name":"\u6597\u5730\u4e3b\u624b\u6e38","count":"1133"},"78":{"name":"\u65b0\u8f66\u9996\u53d1","count":"5423"},"79":{"name":"\u6c7d\u8f66\u8bc4\u6d4b","count":"691"},"80":{"name":"\u8d5b\u9053\u8bd5\u9a7e","count":"773"},"81":{"name":"\u8d8a\u91cee\u65cf","count":"590"},"82":{"name":"\u73a9\u8f66\u6587\u5316","count":"1627"},"87":{"name":"\u751f\u5316\u72c2\u9b54","count":"2686"},"88":{"name":"\u5973\u67aa\u795e","count":"1464"},"89":{"name":"\u72d9\u51fb\u79c0","count":"5269"},"90":{"name":"\u8eab\u6cd5\u5e1d","count":"5145"},"113":{"name":"\u6cd5\u5170\u897f\u70ed\u8fa3\u76db\u5bb4","count":"317"},"98":{"name":"\u6597\u5730\u4e3b","count":"2981"},"97":{"name":"\u8c61\u68cb","count":"637"},"46":{"name":"\u56db\u56fd\u519b\u68cb","count":"997"},"47":{"name":"\u82f1\u96c4\u6740","count":"2455"},"52":{"name":"\u5fb7\u5dde\u6251\u514b","count":"1249"},"100":{"name":"\u6574\u673aDIY","count":"1118"},"101":{"name":"\u624b\u673a\u5e73\u677f","count":"3628"},"102":{"name":"\u667a\u80fd\u8bbe\u5907","count":"2151"},"103":{"name":"\u4e92\u8054\u7f51\u5708","count":"4144"},"104":{"name":"QQ\u6e38\u620f","count":"9811"},"109":{"name":"\u8bdb\u4ed9\u624b\u6e38","count":"340"},"115":{"name":"\u4fdd\u536b\u841d\u535c3","count":"555"},"114":{"name":"\u53e3\u888b\u5996\u602a\u590d\u523b","count":"390"},"110":{"name":"\u62f3\u7687","count":"1549"},"111":{"name":"\u8857\u9738","count":"568"},"112":{"name":"MUGEN","count":"139"},"116":{"name":"SHN48","count":"387"},"117":{"name":"BEJ48","count":"146"},"118":{"name":"GNZ48","count":"186"}};
+var roomTagList = ["6"];
+var roomId = 1721834;
+$("#updateTag").click(function(){
+
+    var tag_list = all_str  = '';
+    for(var index in allTagList){
+        if(roomTagList!= null && $.inArray(index, roomTagList) > -1){
+            tag_list += '<a href="javascript:;" data-tid='+index+' class="cur" data-name='+htmlspecialchars(allTagList[index]['name'])+'><i>'+allTagList[index]['name']+'</i></a>';
+        }else{
+            //所有标签
+            tag_list += '<a href="javascript:;" data-tid='+index+'  data-name='+htmlspecialchars(allTagList[index]['name'])+'><i>'+allTagList[index]['name']+'</i></a>';
+        }
+    }
+    all_str += '<div class="aui_content" style="padding: 15px; width:510px;">'+
+                    '<div class="add_tag clearfix">'+
+                        '<div class="add_tli js_add_accept clearfix" style="margin-left:7px">直播过程中若发现标签和直播内容不相符的情况，管理员会调整您房间的标签，请根据自身填写合适的标签</div>'+
+                        '<div class="add_tli js_add_accept clearfix">'+
+                            '<p class="type fl">房间标签：</p>'+
+                            '<div style="color:red">最多选择5个</div>'+
+                        '</div>'+
+                        '<div class="add_tli js_add_attack clearfix">'+
+                            '<div class="js_add_bt add_label fl">'+tag_list+ '</div>'+
+                        '</div>'+
+                    '</div>'+
+                '</div>';
+    $.dialog({
+        title: '直播标签设置',
+        content: all_str,
+        okVal: '确定修改分类',
+        init: function () {
+            addRoomTag();
+        },
+        ok: function () {
+            var tag_id = '';
+            if($('.js_add_bt').find('a.cur').length >0){
+                $.each($('.js_add_bt').find('a.cur'),function(i,obj){
+                    //当前选择的标签
+                    tag_id += $(obj).data('tid') + '|';
+                });
+            }
+
+            $.dialog.confirm('确定要修改标签', function () {
+                $.post("/room/my/changeRoomTags", {room_id: roomId,"tag_id":tag_id,'ctn': get_cval()}, function (data) {
+                        data = eval("("+data+")");
+                        if(data['error']>0){
+                            $.dialog.alert("更新失败："+data['msg']);
+                        }else{
+                            $.dialog.alert("操作成功，页面即将刷新.", function () {
+                                window.location.href = '/room/my' ;
+                            });
+                        }
+                });
+            });
+        },
+        cancelVal: '取消',
+        cancel: function () {
+        },
+        lock:true
+    });
+    return false;
+});
+
+/*
+ *  房间标签二期优化
+ *  by cuixiaogui@douyu.tv
+ */
+function addRoomTag() {
+  var curLength = $('.js_add_attack a.cur').length;
+  var MaxLength = 5;
+  $('.js_add_attack').on('click', 'a', function() {
+    if ($(this).hasClass('cur')) {
+      $(this).removeClass('cur');
+      curLength--;
+    } else {
+      if (curLength < MaxLength) {
+        $(this).addClass('cur');
+        curLength++;
+      }else{
+        $.dialog.alert("标签数目最多只能选择五个");
+      }
+    }
+  });
+}
+
+
+
+/**
+ * js 实现php htmlspecialchars 方法
+ * @param {type} string
+ * @param {type} quote_style
+ * @param {type} charset
+ * @param {type} double_encode
+ * @returns {unresolved} */
+function htmlspecialchars(string, quote_style, charset, double_encode) {
+
+    var optTemp = 0,
+      i = 0,
+      noquotes = false;
+    if (typeof quote_style === 'undefined' || quote_style === null) {
+      quote_style = 2;
+    }
+    string = string.toString();
+    if (double_encode !== false) { // Put this first to avoid double-encoding
+      string = string.replace(/&/g, '&amp;');
+    }
+    string = string.replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+
+    var OPTS = {
+      'ENT_NOQUOTES': 0,
+      'ENT_HTML_QUOTE_SINGLE': 1,
+      'ENT_HTML_QUOTE_DOUBLE': 2,
+      'ENT_COMPAT': 2,
+      'ENT_QUOTES': 3,
+      'ENT_IGNORE': 4
+    };
+    if (quote_style === 0) {
+      noquotes = true;
+    }
+    if (typeof quote_style !== 'number') { // Allow for a single string or an array of string flags
+      quote_style = [].concat(quote_style);
+      for (i = 0; i < quote_style.length; i++) {
+        // Resolve string input to bitwise e.g. 'ENT_IGNORE' becomes 4
+        if (OPTS[quote_style[i]] === 0) {
+          noquotes = true;
+        } else if (OPTS[quote_style[i]]) {
+          optTemp = optTemp | OPTS[quote_style[i]];
+        }
+      }
+      quote_style = optTemp;
+    }
+    if (quote_style & OPTS.ENT_HTML_QUOTE_SINGLE) {
+      string = string.replace(/'/g, '&#039;');
+    }
+    if (!noquotes) {
+      string = string.replace(/"/g, '&quot;');
+    }
+    return string;
+}
+
+
+$(function () {
+    function initUpdateCityEvent() {
+        //初始化城市选择
+        var container = $('.select-city-container'),
+            $container = $('.select-city-container'),
+            province = $container.data('province') ? $container.data('province') : '',
+            city = $container.data('city') ? $container.data('city') : '';
+        var update_city = $('#update_city');
+        this.selectProv = new SelectProv();
+        this.selectProv.init({
+            container: container,
+            defaultProvince: province,
+            defaultCity: city
+        });
+
+        update_city.on('click',function (argument) {
+            $.dialog.confirm('确定要修改城市', function () {
+                var addr = $('.select-city-container .city-input .city-title').html().trim();
+                var addr_info = addr.split("/");
+                var province = '', city = '';
+                if (addr_info.length >= 2) {
+                    province = addr_info[0].trim();
+                    city = addr_info[1].trim();
+                }
+                $.post("/room/my/update_city", {
+                    province: province,
+                    city: city,
+                    'ctn': get_cval()
+                }, function (ret) {
+                    if (ret.code == 1) {
+                        $.dialog.tips_black(ret.msg);
+                        window.location.reload();
+                    } else {
+                        $.dialog.tips_black(ret.msg);
+                    }
+                }, 'json');
+            });
+        });
+    }
+    initUpdateCityEvent();
+});
+var g_vodd_column = [{"cate1_id":"1","cate1_name":"\u6e38\u620f\u7ade\u6280","recommend":"0","mobile_icon":"201610\/31\/19\/62395b4a8c030d228dc6c77fe74e3f15.png","web_icon":"201610\/31\/19\/8db162eefde5954531269ba8fd389059.png","short_video":"0","child":[{"cate2_id":"5","cate2_name":"\u82f1\u96c4\u8054\u76df","cate1_id":"1","recommend":"1","mobile_icon":"201610\/31\/19\/489f93de7aaa3bef5a45c95d14a28ad8.png","web_icon":"201610\/31\/19\/64707da998a427fdf49b9a81bf231652.png","short_video":"0"},{"cate2_id":"41","cate2_name":"\u6e38\u620f\u8d5b\u4e8b","cate1_id":"1","recommend":"1","mobile_icon":"201611\/10\/18\/fb61c1a8f56e71a31670da3de3d9f4a4.png","web_icon":"201611\/10\/18\/1d05701dc0b45790c4813d3d4010144a.png","short_video":"0"},{"cate2_id":"21","cate2_name":"\u4e3b\u673a\u6e38\u620f","cate1_id":"1","recommend":"0","mobile_icon":"201610\/31\/21\/1b33bdb6d070e85b408ea41f8398c552.png","web_icon":"201610\/31\/21\/586bd9ddbd2ac990f471aa00a817fd14.png","short_video":"0"},{"cate2_id":"8","cate2_name":"\u7089\u77f3\u4f20\u8bf4","cate1_id":"1","recommend":"0","mobile_icon":"201610\/31\/19\/dabe2238d2bd9c3d7b1299311095aa0e.png","web_icon":"201610\/31\/19\/51aabfd22ff779b7ad4ab301929e1633.png","short_video":"0"},{"cate2_id":"6","cate2_name":"DOTA2","cate1_id":"1","recommend":"0","mobile_icon":"201610\/31\/19\/bd27a6b83c80d31c09b25cd169574aa3.png","web_icon":"201610\/31\/19\/1eff7c1a0b274b4a5bd74d2228b6b1f5.png","short_video":"0"},{"cate2_id":"7","cate2_name":"\u5b88\u671b\u5148\u950b","cate1_id":"1","recommend":"0","mobile_icon":"201610\/31\/19\/e5062fbbda2374d20dfcc07c96d3395e.png","web_icon":"201610\/31\/19\/7cbf98a3df7bec52362e16ce545c1bfa.png","short_video":"0"},{"cate2_id":"9","cate2_name":"\u9b54\u517d\u4e16\u754c","cate1_id":"1","recommend":"0","mobile_icon":"201610\/31\/19\/6c36536662e6b2ca03a9245f5ac4f7d4.png","web_icon":"201610\/31\/19\/ba7fd8ba6a4e707920e02a817d7ee025.png","short_video":"0"},{"cate2_id":"10","cate2_name":"\u70ed\u95e8\u7f51\u6e38","cate1_id":"1","recommend":"0","mobile_icon":"201610\/31\/19\/c0e39dbe978ed2c680444877cd962f5a.png","web_icon":"201610\/31\/19\/a4f6f61a130f3b435cc6e9ca5499e33c.png","short_video":"0"},{"cate2_id":"11","cate2_name":"\u72ec\u7acb\u6e38\u620f","cate1_id":"1","recommend":"0","mobile_icon":"201610\/31\/19\/f7a45945345f8036bc4405578121e7dd.png","web_icon":"201610\/31\/19\/6071146179fbb3be537c5f6c7f66f547.png","short_video":"0"},{"cate2_id":"12","cate2_name":"\u683c\u6597\u6e38\u620f","cate1_id":"1","recommend":"0","mobile_icon":"201610\/31\/19\/f375097b3585bc338668e6600963aa9a.png","web_icon":"201610\/31\/19\/0aaab724f0f678a29fdf71d5bc023062.png","short_video":"0"},{"cate2_id":"13","cate2_name":"\u6000\u65e7\u6e38\u620f","cate1_id":"1","recommend":"0","mobile_icon":"201610\/31\/19\/54121c2cb1650a1b30c7cd87c4bbebb1.png","web_icon":"201610\/31\/19\/20941003deb6f05ad8a537c92da27716.png","short_video":"0"},{"cate2_id":"35","cate2_name":"\u68cb\u724c\u6e38\u620f","cate1_id":"1","recommend":"0","mobile_icon":"201611\/02\/16\/f2cd3a57c16638ba691864555672a9f9.png","web_icon":"201611\/02\/16\/59e77688e247b4308acb321502a88fa4.png","short_video":"0"},{"cate2_id":"77","cate2_name":"\u5929\u6daf\u660e\u6708\u5200","cate1_id":"1","recommend":"0","mobile_icon":"201703\/02\/15\/358d2e3cd4ee88e1c7aff9e98fb136fa.png","web_icon":"201703\/02\/15\/12532b33a2abed9422ff6d971be33a5e.png","short_video":"0"},{"cate2_id":"50","cate2_name":"\u5c04\u51fb\u6e38\u620f","cate1_id":"1","recommend":"0","mobile_icon":"201612\/14\/20\/98242e6997d093e32d643fc27bc1298e.png","web_icon":"201612\/14\/20\/1698ea1244f9e10d58838cfc87eb9be0.png","short_video":"0"},{"cate2_id":"46","cate2_name":"\u9b54\u517d\u4e89\u9738","cate1_id":"1","recommend":"0","mobile_icon":"201611\/28\/17\/7b60d67d612053c71e983b2f1904347a.png","web_icon":"201611\/28\/17\/5a585d063f64bc095d7edce5e2507512.png","short_video":"0"},{"cate2_id":"45","cate2_name":"\u89c6\u9891\u5927\u8d5b\u5165\u56f4\u4f5c\u54c1","cate1_id":"1","recommend":"0","mobile_icon":"201611\/22\/17\/6529592b7aed3ac7b0ab31ebb22f15b9.png","web_icon":"201611\/22\/17\/35a6bf3634fc5d596db962dde843b1a8.png","short_video":"0"}]},{"cate1_id":"51","cate1_name":"\u79fb\u52a8\u6e38\u620f","recommend":"0","mobile_icon":"201612\/15\/10\/0966f5fe870eba458544cc4b087ccf27.png","web_icon":"201612\/15\/10\/b5dbb764eb6383e67ecdf2ff1ffa3f1c.png","short_video":"0","child":[{"cate2_id":"49","cate2_name":"\u738b\u8005\u8363\u8000","cate1_id":"51","recommend":"1","mobile_icon":"201612\/12\/16\/701d8d51b61da5a38d1a3af7436dc356.png","web_icon":"201612\/12\/16\/c37d8b25983ea26346fbcf87738f8a4a.png","short_video":"0"},{"cate2_id":"52","cate2_name":"\u9634\u9633\u5e08","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/11\/d7c5b8d725453b3a44b0c9c11a2b3f58.png","web_icon":"201612\/15\/11\/2dea151090d487ff83098109af74ad7d.png","short_video":"0"},{"cate2_id":"54","cate2_name":"\u7403\u7403\u5927\u4f5c\u6218","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/11\/f677deec392c372568fa7126ef037115.png","web_icon":"201612\/15\/11\/c398341265c42a8901c74842097925e2.png","short_video":"0"},{"cate2_id":"53","cate2_name":"\u65b0\u6e38\u4e2d\u5fc3","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/11\/05e4cc5334e50ae04ce7bb1639d53962.png","web_icon":"201612\/15\/11\/5400ef4b4bf4bc1baeedee7d693f2c8f.png","short_video":"0"},{"cate2_id":"22","cate2_name":"\u7efc\u5408\u624b\u6e38","cate1_id":"51","recommend":"0","mobile_icon":"201610\/31\/21\/02f24e821cdad2ab9d8cad04759b5fbc.png","web_icon":"201610\/31\/21\/137706d73ebc08184ce8509645cc9032.png","short_video":"0"},{"cate2_id":"56","cate2_name":"CF\u624b\u6e38","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/11\/1402eecf4432c0959dbbb728f6b0c066.png","web_icon":"201612\/15\/11\/bafd0e1836745e8ed4395487e799d299.png","short_video":"0"},{"cate2_id":"57","cate2_name":"\u706b\u5f71\u5fcd\u8005","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/11\/f7817b604f4af27dd8aecc18603439f9.png","web_icon":"201612\/15\/11\/1bc57dfd354f1c89308df2c315ccda8e.png","short_video":"0"},{"cate2_id":"58","cate2_name":"\u7687\u5ba4\u6218\u4e89","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/11\/5f20c79e73b25975a6483f8b3faa3024.png","web_icon":"201612\/15\/11\/19aad8dc5c6f008f71862a680a67cb2f.png","short_video":"0"},{"cate2_id":"59","cate2_name":"\u68a6\u5e7b\u8bdb\u4ed9","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/12\/8efb524ee03e0d32f12e7f2e7c04095e.png","web_icon":"201612\/15\/12\/3d44657937793c645707285c9b9fee64.png","short_video":"0"},{"cate2_id":"60","cate2_name":"\u86c7\u86c7\u4e89\u9738","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/14\/756562e58cdb6680e9e53ba4f363de3d.png","web_icon":"201612\/15\/14\/0234e674adaf0d55c210ec5809c8ae66.png","short_video":"0"},{"cate2_id":"67","cate2_name":"\u8857\u7bee","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/17\/1bbd4e24f2b1e15862908d232542c13f.png","web_icon":"201612\/15\/17\/bf84b462a7a782317dc85985dace0336.png","short_video":"0"},{"cate2_id":"61","cate2_name":"\u547d\u8fd0-\u51a0\u4f4d\u6307\u5b9a","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/17\/7e8bd59324993d65e20ab04fd2bb3035.png","web_icon":"201612\/15\/17\/b78d659245d6b0e1821de108ff4efbb1.png","short_video":"0"},{"cate2_id":"62","cate2_name":"\u9f99\u4e4b\u8c37","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/17\/347380436af297b6d30c608847676133.png","web_icon":"201612\/15\/17\/7e8283cce4dd5213ce0f840f643c7157.png","short_video":"0"},{"cate2_id":"63","cate2_name":"\u53e3\u888b\u5996\u602a\u590d\u523b","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/17\/0c0dbb3617a9d3af965059f0b570cc74.png","web_icon":"201612\/15\/17\/486b441733a6be2ec753b55dfe6d15d1.png","short_video":"0"},{"cate2_id":"64","cate2_name":"\u95ee\u9053","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/17\/dd328a9efe76c362890285f267abf870.png","web_icon":"201612\/15\/17\/e9aa08e3188588d698734bf141273f5a.png","short_video":"0"},{"cate2_id":"65","cate2_name":"\u90e8\u843d\u51b2\u7a81","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/17\/c907400afacdcd349bda85aedf187f75.png","web_icon":"201612\/15\/17\/040a7e80a7491b12a7a5802b4b405ee9.png","short_video":"0"},{"cate2_id":"75","cate2_name":"\u5929\u5929\u72fc\u4eba\u6740","cate1_id":"51","recommend":"0","mobile_icon":"201702\/14\/15\/c645bfa51673e072bc38047c1b187655.png","web_icon":"201702\/14\/15\/b9a594f0974c0ef044e289c432b5b1a6.png","short_video":"0"},{"cate2_id":"66","cate2_name":"\u5355\u673a\u624b\u6e38","cate1_id":"51","recommend":"0","mobile_icon":"201612\/15\/17\/9bbe08185697af2bb0be9efad7b34da1.png","web_icon":"201612\/15\/17\/2cb7c149a2d9b18512b912d9defed093.png","short_video":"0"}]},{"cate1_id":"2","cate1_name":"\u6237\u5916\u8da3\u73a9","recommend":"0","mobile_icon":"201610\/31\/19\/32ee36fdfb6917875468eaed20121816.png","web_icon":"201610\/31\/19\/cd8e33ea68cfbd6f5dc6469ee35a8fbb.png","short_video":"0","child":[{"cate2_id":"14","cate2_name":"\u7530\u56ed\u98ce\u5149","cate1_id":"2","recommend":"0","mobile_icon":"201610\/31\/19\/40da4ed23c72696d28b08eb5a0944fe4.png","web_icon":"201610\/31\/19\/3909c2dd65e20c617952c8340e9a40f4.png","short_video":"0"},{"cate2_id":"15","cate2_name":"\u8857\u5934\u8fbe\u4eba","cate1_id":"2","recommend":"0","mobile_icon":"201610\/31\/19\/db37fc26a7361eba8d50f1a8b44b7844.png","web_icon":"201610\/31\/19\/59a46c3acb17c26bf25d67f9fc7905c9.png","short_video":"0"},{"cate2_id":"20","cate2_name":"\u6f14\u6280\u6d3e","cate1_id":"2","recommend":"0","mobile_icon":"201610\/31\/21\/400539d0f5715869c3e276ad791c8c8e.png","web_icon":"201610\/31\/21\/229504b058b7ac59bfc9932c9da3c8ec.png","short_video":"0"},{"cate2_id":"16","cate2_name":"\u6d77\u5916","cate1_id":"2","recommend":"0","mobile_icon":"201610\/31\/19\/6e1690441f151dbe264ced2fca66e55b.png","web_icon":"201610\/31\/19\/bdf4cb711c6767491f74019327882feb.png","short_video":"0"},{"cate2_id":"36","cate2_name":"\u4f53\u80b2","cate1_id":"2","recommend":"0","mobile_icon":"201611\/03\/12\/bfcb61afda4e6579039d47394319fb97.png","web_icon":"201611\/03\/12\/4b543a7f9eac745fa8d0d6dda34054cf.png","short_video":"0"}]},{"cate1_id":"3","cate1_name":"\u751f\u6d3b\u5a31\u4e50","recommend":"0","mobile_icon":"201610\/31\/19\/ed59fb8bb97c1787d713e12f5808e4d3.png","web_icon":"201610\/31\/19\/ca43b0e6b4ae83af21d8d679a956a623.png","short_video":"0","child":[{"cate2_id":"17","cate2_name":"\u97f3\u4e50","cate1_id":"3","recommend":"0","mobile_icon":"201610\/31\/21\/964c539374587f7591109241ce12b51c.png","web_icon":"201610\/31\/21\/6f7e55bd94a71bf38ea8f846185a79c0.png","short_video":"0"},{"cate2_id":"18","cate2_name":"\u821e\u8e48","cate1_id":"3","recommend":"0","mobile_icon":"201610\/31\/22\/e6f04b441deaf67d4ab2d3e474987663.png","web_icon":"201610\/31\/22\/42c880e5ff51bcd004835c3a2f3b9aa3.png","short_video":"0"},{"cate2_id":"24","cate2_name":"\u4e8c\u6b21\u5143","cate1_id":"3","recommend":"0","mobile_icon":"201610\/31\/22\/a916f92b5f767dab6d6021fc1d23ac4d.png","web_icon":"201610\/31\/22\/5a04e35713f9d8a6d16e8369a9868546.png","short_video":"0"},{"cate2_id":"23","cate2_name":"\u7f8e\u98df","cate1_id":"3","recommend":"0","mobile_icon":"201610\/31\/22\/d6095d554d8f323a50dbae5646a75779.png","web_icon":"201610\/31\/22\/88571eda31e251adce4332612ef7570c.png","short_video":"0"},{"cate2_id":"19","cate2_name":"\u5065\u8eab","cate1_id":"3","recommend":"0","mobile_icon":"201610\/31\/21\/2157d2dafeba9986aa852b37d21ce450.png","web_icon":"201610\/31\/21\/3365f128c4c3adcdf23364119b773619.png","short_video":"0"},{"cate2_id":"25","cate2_name":"\u65f6\u5c1a","cate1_id":"3","recommend":"0","mobile_icon":"201610\/31\/22\/6f2b2865a55a03b0c6936a1d6d411966.png","web_icon":"201610\/31\/22\/59fed170eaff4f01ef85ba72ebb4d754.png","short_video":"0"},{"cate2_id":"44","cate2_name":"\u6559\u80b2","cate1_id":"3","recommend":"0","mobile_icon":"201611\/16\/11\/8ba128879b585fc95a9b787c5ca2a2f1.png","web_icon":"201611\/16\/11\/a52482862e6030ddbcd1f3bbaacdacde.png","short_video":"0"},{"cate2_id":"39","cate2_name":"\u6c7d\u8f66","cate1_id":"3","recommend":"0","mobile_icon":"201611\/04\/15\/1e081e6f33c702d8e7918aa8e0d05d65.png","web_icon":"201611\/04\/15\/146140f94c4444b682313e8b6224edf5.png","short_video":"0"},{"cate2_id":"26","cate2_name":"\u79d1\u6280","cate1_id":"3","recommend":"0","mobile_icon":"201611\/16\/11\/12b9bd53f4662ab9bc38abfbbcbd5e00.png","web_icon":"201611\/16\/11\/5b98d502b3a1105ff93014742240c3e3.png","short_video":"0"},{"cate2_id":"27","cate2_name":"\u7efc\u827a","cate1_id":"3","recommend":"0","mobile_icon":"201610\/31\/22\/db28402edc40c32cecbe20d03e169a34.png","web_icon":"201610\/31\/22\/6baa925900c9e9ea45762d466c43f356.png","short_video":"0"},{"cate2_id":"37","cate2_name":"\u641e\u7b11","cate1_id":"3","recommend":"0","mobile_icon":"201611\/03\/13\/b5f22f21f89671babce268ff601c3288.png","web_icon":"201611\/03\/13\/f0f6e1a5871c7d0e2d83fa84b0ca2697.png","short_video":"0"},{"cate2_id":"76","cate2_name":"\u9c7c\u5858\u661f\u5973\u795e","cate1_id":"3","recommend":"0","mobile_icon":"201702\/21\/12\/faff6938f7ca67e25a25398394523bc5.png","web_icon":"201702\/21\/12\/b93724a06ce93281f42134dbe8995a04.png","short_video":"0"},{"cate2_id":"43","cate2_name":"\u9c9c\u8089\u7537\u795e","cate1_id":"3","recommend":"0","mobile_icon":"201611\/12\/15\/5a7f387c5c94232d8d2d5d7e66bb150c.png","web_icon":"201611\/12\/15\/5f2d67f07cd8658d91757591874b0406.png","short_video":"0"},{"cate2_id":"38","cate2_name":"\u8d22\u7ecf","cate1_id":"3","recommend":"0","mobile_icon":"201611\/04\/15\/c08c9ea7750110a4b950ca0081abd849.png","web_icon":"201611\/04\/15\/47c91f681123e5abf8e0f346d38fa40c.png","short_video":"0"},{"cate2_id":"40","cate2_name":"\u5f71\u89c6","cate1_id":"3","recommend":"0","mobile_icon":"201611\/09\/14\/f99492580d18658432b2dc95441f6972.png","web_icon":"201611\/09\/14\/dd7d4f13954271fbf76ef7a661f86b7b.png","short_video":"0"},{"cate2_id":"72","cate2_name":"\u9b3c\u755c","cate1_id":"3","recommend":"0","mobile_icon":"201612\/28\/10\/fd15fab673fb7a49dcd2821706fccfee.png","web_icon":"201612\/28\/10\/cbdcfc64ffe3cb3614091fc26693a752.png","short_video":"0"},{"cate2_id":"48","cate2_name":"\u52a8\u753b","cate1_id":"3","recommend":"0","mobile_icon":"201612\/06\/19\/97366122397f9c9ceadc294338550877.png","web_icon":"201612\/06\/19\/9ae2d55636f7923d8358d1fae1e53167.png","short_video":"0"},{"cate2_id":"73","cate2_name":"\u6b63\u80fd\u91cf","cate1_id":"3","recommend":"0","mobile_icon":"201701\/11\/12\/6dc81abfeb523571b25862cce4b53c47.png","web_icon":"201701\/11\/12\/78927a3addc567a014f078b3653595dd.png","short_video":"0"}]}];
+</script>
+<script type="text/javascript" charset="utf-8" src="https://staticlive.douyucdn.cn/common/js/usercenter/room-title.js?20161215"></script>
+</body>
+</html>
