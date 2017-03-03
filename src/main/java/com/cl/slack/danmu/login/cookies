@@ -1,2 +1,401 @@
 hiido_ui=0.39433265795061634; hd_newui=0.5876888945437817; __yamid_tt1=0.08607976627091674; __yamid_new=C76F23A22A900001101E192FD011132B; __yasmid=0.08607976627091674; ya_eid=navi/sign; h_pr=1; yyuid=1704206903; username=1943046018yy; password=BE275590E35D8AF81512AD8710017A6B2711C39B; osinfo=8BB496DA4842DFE8161CBCED6ED57B7B832B6E71; udb_l=DAAxOTQzMDQ2MDE4eXkwtrdYCHQAJBJ36DMVh7HQjlfe2nKZHO6flD7VfzmMjK4oQDoG2BbVUKDo-TiOMXEwOodpYTmBNDVFkbUHVq3vU4jBAi9Z36sWZyM3qmPeisT0xb92VyHD3CBnlf8iFCRhr005Q-SEcMoELmaDZR3NHQWl-aLRXx-OPvQAAAAAAwAAAAAAAAAOADExNi4yMjYuMzkuMjAxBAA1MjE2; udb_n=900a82e0c71e7655242c04b18e5b30238ea8e27c70bb34ac4e04c5cd43acdbd918c2fbb5ed9d29800a708008a0b89588; udb_c=AEDYBVBqAAJgAKZR1ambN9-KCqmB1Sy6GNN1W1GLAMJ52LX7I2tuRRGpINr8Iuf-hLLQGpFEzbP2CbbgPzI9GHc1iKqGGLaG99auduXCPwXYIFEzMqXXGTQvwMDM_-zRgn_OZy3nUJkXIw==; udb_oar=8ECD4C481D9417BEC76C1C13769123FBC65593E9FC54E3FD3AF088ED24877955E321026402AA6501A66C988F62707AC06B505EABF534098B4DDD757C27ED555676F3F868C373ADE82EB375DA3E0B2B0B059EBB4DD56B616C84A919F098ABBF2BAD93DE556DBF5E0DD846CC65FFEB403CB70D900BF0A91BE5234307942A61AE1CAADFC9EEC229E86D98CBE924EEF3181692815F3EEFD0159245B14CF4CD3235249ED24E9B5EDB0E4E78353C744D7689DB9BCCCFA5596036921E8C18CA0276E7A1813C833518DF2C4AA4AB2B850F115E4DB0FD9CAEFC4FFC55A84C2F9CCCC1A1BAD5B443F743D56C533CDA5E3688BDD29B4686938692342BEDD76105CD116BA405206A8FBD68A2F4A2CCBD018DAFA66636A46C81B311B6CD3A5C940F266C5DAFAE7138ED1955EE633B3AE4601AE4DC920E1C45A879152B8514BDE9917015EA4694; h_unt=1488434738; __yaoldyyuid=1704206903; _yasids=__rootsid%3DC76F64D634C000011C79A7801BA086F0; isInLiveRoom=true; SoundValue=0.50; guid=b724793749b6b7582f1fabd4acd4f977; Hm_lvt_51700b6c722f5bb4cf39906a596ea41f=1488420341,1488420346,1488433909,1488434723; Hm_lpvt_51700b6c722f5bb4cf39906a596ea41f=1488434763
 
+龙珠：
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Administrator" />
+		<meta name="generator" content="2015-5-6 Zendstudio11" />
+		<title>跳转...</title>
+	</head>
+	<body>
+		<script>
+			self.location = "http://star.longzhu.com/2391385";
+		</script>
+	</body>
+</html>
+
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org">
+<head>
+    <meta charset="utf-8">
+    <title>直播设置</title>
+    <meta name="description" content="PLU游戏娱乐传媒提供竞技游戏的职业战队联赛运营与视频直播, 拥有游戏解说业界人气最高与和最专业的主持人, 星际争霸及星际争霸2等多款游戏全天候视频直播, PLU游戏论坛更是汇聚了中国众多SC2及SC职业选手与支持者,是国内最具人气的游戏论坛。" />
+    <meta name="keywords" content="PLU,游戏职业联赛直播,游戏赛事直播,游戏资讯,PLU游戏娱乐传媒" />
+    <link href="http://res.plures.net/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--[if lte IE 6]>
+          <link rel="stylesheet" type="text/css" href="http://res.plures.net/lib/bootstrap/css/bootstrap-ie6.min.css">
+          <link rel="stylesheet" type="text/css" href="http://res.plures.net/lib/bootstrap/css/ie.css">
+        <![endif]-->
+    <link href="/content/settings/css_v0?v=HQMyeEB6YHaWz0SUVHO-5J062fbQ6LMOt4a7kZcncsc1" rel="stylesheet"/>
+</head>
+<style>
+    .header {
+        z-index: 999;
+        position: relative;
+    }
+
+    .tipsBox-hibo {
+        width: 1000px;
+        margin: 0 auto;
+        background: #FFE8C4;
+        font-size: 24px;
+        z-index: 99;
+        color: #FF5A00;
+        font-size: 12px;
+        line-height: 24px;
+        border: #DDE2E8 solid 1px;
+        height: 0;
+        position: relative;
+    }
+
+        .tipsBox-hibo p {
+            padding: 0 30px;
+            margin-bottom: 0;
+            display:none;
+        }
+
+    .download-hibo {
+        color: #08c;
+    }
+
+    .closed-hibo {
+        color: #999;
+        font-size: 24px;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+            display:none;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="home-toptip" id="toptip">
+            为不影响您道具分成的打款，请在<span style="color: #ff0000; font-weight: bold;">账户信息</span>中的填写<span style="color: #ff0000; font-weight: bold;">身份证信息</span>。<div class="topTip-close"></div>
+        </div>
+        <div class="header">
+            <div class="container">
+                <div class="nav-line row">
+                    <a href="http://www.longzhu.com" class="logo" title="TGA竞技平台" style="display:none;">TGA竞技平台</a>
+                    <a href="http://star.longzhu.com/" class="btn btn-lg btn-primary">回到首页</a>
+                    <span class="text-right" id="logout">
+
+                        欢迎您，<span class="user-name" data-uid="66273381">0710gdee23 </span><a class="" href="http://login.plu.cn/user/logout?returnurl=http%3a%2f%2fsetting.longzhu.com%2f2391385%2fPlay%2fLive">退出</a>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+        <div class="div-height">
+        </div>
+        <div class="container main-content">
+            <div class="layout-row">
+                <div class="layout-left">
+                    <!--fl w200 start-->
+
+<ul class="dropdown-menu">
+
+                        <li class="nav-header"><i class="nav-icon home"></i>房间管理</li>
+
+                    <li  >
+                        <a href="/2391385">后台首页</a>
+                    </li>
+
+                    <li  >
+                        <a href="/2391385/home/noticelist">官方公告</a>
+                    </li>
+
+                        <li class="nav-header"><i class="nav-icon roomweekcontribution"></i>房间收益</li>
+
+                    <li  >
+                        <a href="/2391385/roomweekcontribution">道具收益查询</a>
+                    </li>
+
+                    <li  >
+                        <a href="/2391385/roomusercontribution">贡献排行</a>
+                    </li>
+
+                            <li class="nav-header"><i class="nav-icon cashwithdraw"></i>结算中心</li>
+
+                        <li  >
+                            <a href="/2391385/cashwithdraw">主播提现</a>
+                        </li>
+
+                        <li  >
+                            <a href="/2391385/accountingcenter/addroomreceiptdata">账户信息</a>
+                        </li>
+                        <li  >
+                            <a href="/2391385/play/setlivebulletscreen">直播弹幕开启/关闭</a>
+                        </li>
+
+                            <li  class="active" >
+                                <a href="/2391385/play/live">添加本地直播</a>
+                            </li>
+
+                    <li  >
+                        <a href="/2391385/fans">粉丝勋章命名</a>
+                    </li>
+
+                    <li  >
+                        <a href="/2391385/setroommanager">设置管理员</a>
+                    </li>
+
+                    <li  >
+                        <a href="/2391385/blockeduser/blockeduserlist">管理禁言</a>
+                    </li>
+
+                    <li  >
+                        <a href="/2391385/userintoremind/indexremind">用户进入提醒</a>
+                    </li>
+
+                        <li class="nav-header"><i class="nav-icon room"></i>房间设置</li>
+
+                    <li  >
+                        <a href="/2391385/room">资料设置</a>
+                    </li>
+
+                    <li  >
+                        <a href="/2391385/intercurad">插播广告管理</a>
+                    </li>
+
+                    <li  >
+                        <a href="/2391385/googlead">插播谷歌广告系统</a>
+                    </li>
+
+    <li class="nav-header"><i class="nav-icon icon-star"></i>软件下载</li>
+    <li><a href="http://longzhu.com/haibo" target="_blank">嗨播下载</a></li>
+</ul>
+                </div>
+                <div class="layout-right" id="ng-app" ng-app="app">
+                    <div class="mask"></div>
+
+
+
+<style type="text/css">
+    .boldred {
+        font-weight:bold;
+        color:red;
+    }
+    .smallfont {
+        font-size:12px;
+        color:red;
+    }
+</style>
+
+<form action="/2391385/Play/Live" id="submitPlay" method="post">    <input type="hidden" id="liveStreamType" name="liveStreamType" value="12" />
+    <div id="play">
+        <h2>添加本地直播</h2>
+
+        <table class="table table-bordered table-nobordered">
+            <tr>
+                <td>
+                    <div class="form-horizontal">
+                        <div class="control-group">
+                            <label class="control-label">标题:</label>
+                            <div class="controls">
+                                <input type="text" placeholder="填写您直播内容的标题" name="BoardCastTitle" id="BoardCastTitle" class="plu-text-width-video" value="测试测试测试">
+                            </div>
+                        </div>
+                            <div class="control-group" style=display:none>
+                                <label class="control-label">线路选择:</label>
+                                <div class="controls">
+                                        <label class="checkbox inline"><input type="radio" disabled=disabled name="lines" checked=checked value="12">腾讯</label>
+                                </div>
+                            </div>
+                                <div class="control-group">
+                                    <label class="control-label">直播地址:</label>
+                                    <div class="controls">
+                                        <input type="text" id="up_stream_host" value="rtmp://pushonlive.plu.cn/onlive/" class="plu-text-width-video" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label"><font class="boldred">直播码:</font></label>
+                                    <div class="controls">
+                                        <input type="text" id="up_stream_key" value=8156affd870a4e059052c8e676512427?txSecret=ddb5739f8cf202a25c10597bccb85d7a&amp;txTime=58b7ffd8 class="plu-text-width-video" /> <br /><font class="smallfont">请将此串码复制到OBS并尽快开始串流</font>
+                                    </div>
+                                </div>
+
+
+                        <div class="control-group">
+                            <label class="control-label">直播游戏:</label>
+                            <div class="controls" style="padding-left: 85px; *float: left; *padding-left: 0">
+                                <label class="checkbox inline"><input type="radio" name="gameId"  value="4"   />英雄联盟</label><label class="checkbox inline"><input type="radio" name="gameId"  value="7"   />穿越火线</label><label class="checkbox inline"><input type="radio" name="gameId"  value="5"   />地下城与勇士</label><label class="checkbox inline"><input type="radio" name="gameId"  value="9"   />QQ飞车</label><label class="checkbox inline"><input type="radio" name="gameId"  value="14"   />逆战</label><label class="checkbox inline"><input type="radio" name="gameId"  value="6"   />星际争霸</label><label class="checkbox inline"><input type="radio" name="gameId"  value="90"   />主机游戏（综合）</label><label class="checkbox inline"><input type="radio" name="gameId"  value="170"   />龙珠星秀</label><label class="checkbox inline"><input type="radio" name="gameId"  value="167"   />龙珠方言</label><label class="checkbox inline"><input type="radio" name="gameId"  value="166"   />综合手游</label><label class="checkbox inline"><input type="radio" name="gameId"  value="146"   />部落冲突皇室战争</label><label class="checkbox inline"><input type="radio" name="gameId"  value="136"   />饥荒</label><label class="checkbox inline"><input type="radio" name="gameId"  value="132"   />龙珠综艺</label><label class="checkbox inline"><input type="radio" name="gameId"  value="131"   />火影忍者</label><label class="checkbox inline"><input type="radio" name="gameId"  value="124"   />二次元</label><label class="checkbox inline"><input type="radio" name="gameId"  value="123"   />游戏美女</label><label class="checkbox inline"><input type="radio" name="gameId"  value="120"   />穿越火线手游</label><label class="checkbox inline"><input type="radio" name="gameId"  value="117"   />欢乐斗地主</label><label class="checkbox inline"><input type="radio" name="gameId"  value="115"   />枪林弹雨</label><label class="checkbox inline"><input type="radio" name="gameId"  value="113"   />守望先锋</label><label class="checkbox inline"><input type="radio" name="gameId"  value="112"   />龙珠拼盘</label><label class="checkbox inline"><input type="radio" name="gameId"  value="174"   />其他</label><label class="checkbox inline"><input type="radio" name="gameId"  value="178"   />QQ游戏（综合）</label><label class="checkbox inline"><input type="radio" name="gameId"  value="179"   />冒险岛2</label><label class="checkbox inline"><input type="radio" name="gameId"  value="180"   />德州扑克</label><label class="checkbox inline"><input type="radio" name="gameId"  value="187"   />CSGO</label><label class="checkbox inline"><input type="radio" name="gameId"  value="193"   />VR游戏</label><label class="checkbox inline"><input type="radio" name="gameId"  value="206"   />球球大作战</label><label class="checkbox inline"><input type="radio" name="gameId"  value="208"   />MUGEN</label><label class="checkbox inline"><input type="radio" name="gameId"  value="212"   />极品飞车OL</label><label class="checkbox inline"><input type="radio" name="gameId"  value="234"   />美女秀场</label><label class="checkbox inline"><input type="radio" name="gameId"  value="235"   />龙珠西甲</label><label class="checkbox inline"><input type="radio" name="gameId"  value="242"   />新流星搜剑录</label><label class="checkbox inline"><input type="radio" name="gameId"  value="244"   />枪火游侠</label><label class="checkbox inline"><input type="radio" name="gameId"  value="245"   />欢乐大星球</label><label class="checkbox inline"><input type="radio" name="gameId"  value="246"   />英魂之刃口袋版</label><label class="checkbox inline"><input type="radio" name="gameId"  value="10"   />QQ炫舞</label><label class="checkbox inline"><input type="radio" name="gameId"  value="15"   />剑灵</label><label class="checkbox inline"><input type="radio" name="gameId"  value="16"   />枪神纪</label><label class="checkbox inline"><input type="radio" name="gameId"  value="18"   />英雄杀</label><label class="checkbox inline"><input type="radio" name="gameId"  value="19"   />NBA2KOL</label><label class="checkbox inline"><input type="radio" name="gameId"  value="29"   />炉石传说</label><label class="checkbox inline"><input type="radio" name="gameId"  value="32"   />神之浩劫</label><label class="checkbox inline"><input type="radio" name="gameId"  value="33"   />FIFA Online3</label><label class="checkbox inline"><input type="radio" name="gameId"  value="37"   />街头篮球</label><label class="checkbox inline"><input type="radio" name="gameId"  value="38"   />天天酷跑</label><label class="checkbox inline"><input type="radio" name="gameId"  value="41"   />全民飞机大战</label><label class="checkbox inline"><input type="radio" name="gameId"  value="43"   />怪物猎人OL</label><label class="checkbox inline"><input type="radio" name="gameId"  value="45"   />使命召唤OL</label><label class="checkbox inline"><input type="radio" name="gameId"  value="46"   />疾风之刃</label><label class="checkbox inline"><input type="radio" name="gameId"  value="48"   />格斗游戏</label><label class="checkbox inline"><input type="radio" name="gameId"  value="49"   />天涯明月刀</label><label class="checkbox inline"><input type="radio" name="gameId"  value="54"   />魔兽争霸3</label><label class="checkbox inline"><input type="radio" name="gameId"  value="55"   />魔兽世界</label><label class="checkbox inline"><input type="radio" name="gameId"  value="58"   />英魂之刃</label><label class="checkbox inline"><input type="radio" name="gameId"  value="59"   />雷霆战机</label><label class="checkbox inline"><input type="radio" name="gameId"  value="64"   />热血传奇</label><label class="checkbox inline"><input type="radio" name="gameId"  value="89"   />其他游戏</label><label class="checkbox inline"><input type="radio" name="gameId"  value="92"   />单机游戏（综合）</label><label class="checkbox inline"><input type="radio" name="gameId"  value="97"   />我的世界</label><label class="checkbox inline"><input type="radio" name="gameId"  value="100"   />跑跑卡丁车</label><label class="checkbox inline"><input type="radio" name="gameId"  value="103"   />王者荣耀</label><label class="checkbox inline"><input type="radio" name="gameId"  value="106"   />全民超神</label><label class="checkbox inline"><input type="radio" name="gameId"  value="107"   />经典游戏</label><label class="checkbox inline"><input type="radio" name="gameId"  value="108"   />龙珠音乐</label><label class="checkbox inline"><input type="radio" name="gameId"  value="110"   />剑网3</label><label class="checkbox inline"><input type="radio" name="gameId"  value="119"   />随拍</label><label class="checkbox inline"><input type="radio" name="gameId"  value="127"  checked />御宅</label><label class="checkbox inline"><input type="radio" name="gameId"  value="128"   />户外</label><label class="checkbox inline"><input type="radio" name="gameId"  value="129"   />萌宠</label>
+                            </div>
+                        </div>
+                        <div class="account-text play-text">
+                            备注：1.请尽快在推流软件中开启直播
+                            <p>2.每次结束直播时要手动点击以下的“结束直播”来关闭直播，建议先关闭直播再断开直播流</p>
+                            <p>3.直播标题字数不得超过12个中文字</p>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls text-center">
+                                <button type="button" id="btnPlay" class="btn btn-primary btn-large">结束直播</button>
+
+                                <br /><div class="validation-summary-errors"><ul><li>请选择直播游戏.</li>
+</ul></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</form>
+
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </div>
+
+    <div class="bet-layer" id="bet-over">
+        <div class="bet-layer-tit">
+            <a href="javascript:;" class="bet-layer-close">关闭</a>
+            <span>竞猜提示</span>
+        </div>
+        <div class="bet-layer-item">
+            <p>您选择的竞猜结果是：<span class="bet-myoption">能占位</span></p>
+            <p>确定公布吗？</p>
+            <div class="bet-layer-opt">
+                <a href="javascript:;" class="bet-layer-sure">确定</a>
+                <a href="javascript:;" class="bet-layer-cancel">取消</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bet-layer" id="bet-lp">
+        <div class="bet-layer-tit">
+            <a href="javascript:;" class="bet-layer-close">关闭</a>
+            <span>竞猜提示</span>
+        </div>
+        <div class="bet-layer-item">
+            <div class="lp-con">
+                <p>流盘后将取消本次下注，龙豆返回用户。</p>
+                <p>确定流盘吗？</p>
+            </div>
+            <div class="bet-layer-opt">
+                <a href="javascript:;" class="bet-layer-sure">确定</a>
+                <a href="javascript:;" class="bet-layer-cancel">取消</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bet-layer form-horizontal" id="bet-fp">
+        <div class="bet-layer-tit">
+            <a href="javascript:;" class="bet-layer-close">关闭</a>
+            <span>封盘时间</span>
+        </div>
+        <div class="bet-layer-item bet-fp-item control-group">
+            <div class="controls">
+                <input id="fpTime1" name="FpTime" type="radio" value="1">
+                <span>设定时间点</span>
+                <input class="admin-input-calendar" data-val="true" id="fpEndTime1" name="fpEndTime1" placeholder="" type="text">
+            </div>
+            <div class="controls">
+                <input id="fpTime2" name="FpTime" type="radio" value="2">
+                <span>设定时间段</span>
+                <select id="periodTime" name="periodTime">
+                    <option value="10">10min</option>
+                    <option value="20">20min</option>
+                    <option value="30">30min</option>
+                    <option value="45">45min</option>
+                    <option value="60">60min</option>
+                    <option value="90">90min</option>
+                    <option value="120">120min</option>
+                </select>
+            </div>
+            <div class="controls">
+                <input id="fpTime3" name="FpTime" type="radio" value="3">
+                <strong>立即封盘</strong>
+            </div>
+            <div class="bet-layer-opt bet-layer-opt-fp">
+                <a href="javascript:;" class="bet-layer-sure">确定</a>
+                <a href="javascript:;" class="bet-layer-cancel">取消</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+  <p><a href="http://longzhu.com/news/content/2015-01-30/78628" target="_blank">关于我们</a> | <a href="http://www.plu.cn/privacy" target="_blank">隐私政策</a></p>
+  <p class="e">COPYRIGHT &copy; 2015 LONGZHU. ALL RIGHTS RESERVED. "深圳市腾讯计算机系统有限公司"授权服务.</p>
+  <p>苏州游视 版权所有 <a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">苏ICP备13042997号</a> <a href="http://www.plu.cn/www.html" target="_blank" rel="nofollow">苏网文[2015]1095-008号</a> <a href="http://www.plu.cn/gbxkz.html" target="_blank">广播电视节目制作经营许可证:(苏)字第00726号</a>
+      <span id="toTobile" style="display:none;"> | <a href="javascript:plu.widget.portal.toMobileVersion();">触屏版</a></span></p>
+</div>
+<script>
+  if (window.plu && plu.widget && plu.widget.portal && plu.widget.portal.clientIsMobile()) {
+        document.getElementById("toTobile").style["display"] = "inline";
+    }
+</script>
+    <script>
+    (function () {
+      var footerEl = document.getElementById('footer_ied');
+      if (footerEl) {
+        var logoEl = document.createElement('div');
+        logoEl.className = 'footer-logo';
+        footerEl.childNodes[0].appendChild(logoEl);
+      }
+    })();
+    </script>
+    <script type="text/javascript" src="/bundles/json2_v0?v=d1Efh1-9UFdw-Pnj4VVUxViXmZK9H1kqbY_kx2U79DM1"></script>
+    <script type="text/javascript" src="/js/jquery_v0?v=vYJV3g4Qgp5Ss6B_-IHaW8OSfdcyHAaK0CgitrZ7Xao1"></script>
+
+    <script type="text/javascript" src="http://res.plures.net/lib/jquery-ui/1.10.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://res.plures.net/lib/bootbox/3.2.0/bootbox.min.js"></script>
+    <script type="text/javascript" src="http://res.plures.net/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!--[if lte IE 6]>
+            <script type="text/javascript" src="http://res.plures.net/lib/bootstrap/js/bootstrap-ie.js"></script>
+        <![endif]-->
+    <script type="text/javascript" src="/scripts/view/utils_v0?v="></script>
+    <script type="text/javascript" src="http://res.plures.net/lib/moment/moment.min.js"></script>
+    <script type="text/javascript" src="/bundles/settings/common_v0?v=zE9iyJO1x0nCGBDXzAQ4__Al3WqeI-wHAVt4x-VBPuI1"></script>
+
+    <script type="text/javascript" src="/bundles/settings_play/js_v0?v=vf7-8NTNqQWY0E_alryGjd2F7CK5jqCGr0hW_Vn0QIs1"></script>
+
+    <script type="text/javascript">
+
+        var roomIsLiving = "True";
+
+        $(function () {
+
+            $("#btnPlay").click(function () {
+                var boardCast_Title = $("#BoardCastTitle").val();
+
+                if (boardCast_Title.length < 1) {
+                    alert("请填写标题或视频流地址");
+                    return false;
+                }
+
+                if (roomIsLiving == "False" && $(":radio[name='lines']").length>1) {
+                    var lst_name = $(":checked[name='lines']").parent().text();
+                    alert("您将选择线路“" + lst_name + "”开启直播，请确认您的串流工具里的直播地址和直播码是否正确");
+                }
+
+                $("#submitPlay").submit();
+                return true;
+            });
+
+            $(":radio[name='lines']").on("click", function () {
+                if (roomIsLiving == "True") { return; }
+                var lst = $(this).val();
+
+                $.get('GetUpStreamUrl?liveStreamType=' + lst, function (result) {
+                    if (!result || !result.item1 || !result.item2) {
+                        alert("切换线路失败");
+                        return false;
+                    }
+
+                    $("#up_stream_host").val(result.item1);
+                    $("#up_stream_key").val(result.item2);
+                    $("#liveStreamType").val(lst);
+                });
+            });
+
+        });
+
+    </script>
+</body>
+</html>

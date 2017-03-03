@@ -9,12 +9,17 @@ import android.webkit.JsResult;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
 /**
  * Created by slack
  * on 17/3/2 下午3:04.
  */
 
-public class BaseWebViewActivity extends AppCompatActivity {
+public abstract class BaseWebViewActivity extends AppCompatActivity {
 
     protected WebView mWebView;
     private ViewGroup mRootView;
@@ -26,7 +31,12 @@ public class BaseWebViewActivity extends AppCompatActivity {
     }
 
     protected void addWebView(){
-        mRootView.addView(mWebView);
+        addWebView(0);
+    }
+
+    protected void addWebView(int index){
+        mRootView.addView(mWebView,index);
+        // test
         mWebView.setWebChromeClient(new WebChromeClient(){
             @Override
             public boolean onConsoleMessage(ConsoleMessage consoleMessage) {
@@ -78,6 +88,40 @@ public class BaseWebViewActivity extends AppCompatActivity {
             mRootView.removeView(mWebView);
             mWebView.destroy();
             mWebView = null;
+        }
+    }
+
+    protected String getAssertString(String assetName) {
+        StringBuilder sb = new StringBuilder();
+        InputStream is = null;
+        BufferedReader br = null;
+        try {
+            is = getAssets().open(assetName);
+            String line;
+            br = new BufferedReader(new InputStreamReader(is));
+            while ((line = br.readLine()) != null) {
+                sb.append(line);
+                sb.append('\n');
+            }
+            return sb.toString();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return sb.toString();
+        }finally {
+            if (br != null) {
+                try {
+                    br.close();
+                } catch (IOException e) {
+                    //
+                }
+            }
+            if (is != null) {
+                try {
+                    is.close();
+                } catch (IOException e) {
+                    //
+                }
+            }
         }
     }
 }

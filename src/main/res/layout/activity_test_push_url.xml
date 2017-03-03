@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cl.slack.danmu.TestLoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="斗鱼"
+            android:textAllCaps="false"
+            android:onClick="douyu"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="龙珠"
+            android:textAllCaps="false"
+            android:onClick="longzhu"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="熊猫"
+            android:textAllCaps="false"
+            android:onClick="xiongmao"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="全民"
+            android:textAllCaps="false"
+            android:onClick="quanmin"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="战旗"
+            android:textAllCaps="false"
+            android:onClick="zhanqi"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="虎牙"
+            android:textAllCaps="false"
+            android:onClick="huya"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6间房"
+            android:textAllCaps="false"
+            android:onClick="sixjianfang"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试webview login"
+            android:textAllCaps="false"
+            android:onClick="testOther"/>
+    </LinearLayout>
+
+</ScrollView>

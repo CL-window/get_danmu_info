@@ -1,7 +1,9 @@
 package com.cl.slack.danmu.live_chart;
 
+import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
+import okhttp3.RequestBody;
 import okhttp3.Response;
 
 import java.io.IOException;
@@ -11,10 +13,41 @@ import java.io.IOException;
  */
 public class HttpUtils {
 
+    private final static OkHttpClient mOkHttpClient = new OkHttpClient();
+
     public static String httpGet(String url) throws Exception {
-        OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder().url(url).build();
-        Response response = client.newCall(request).execute();
+        return getRequestString(request);
+    }
+
+    /**
+     * 带有 cookie 的 访问
+     * @param url url
+     * @param cookie cookie
+     * @return
+     * @throws Exception
+     */
+    public static String httpGet(String url,String cookie) throws Exception {
+        Request request = new Request.Builder().url(url)
+                .addHeader("cookie",cookie)
+                .build();
+        return getRequestString(request);
+    }
+
+    /**
+     * post json
+     */
+    public static String httpGet(String url,String json,String cookie) throws Exception {
+        RequestBody body = RequestBody.create(MediaType.parse("application/json; charset=utf-8"),json);
+        Request request = new Request.Builder().url(url)
+                .addHeader("cookie",cookie)
+                .post(body)
+                .build();
+        return getRequestString(request);
+    }
+
+    private static String getRequestString(Request request) throws Exception {
+        Response response = mOkHttpClient.newCall(request).execute();
         if(!response.isSuccessful()){
             throw new RuntimeException("http get request failed");
         }
@@ -22,9 +55,8 @@ public class HttpUtils {
     }
 
     public static byte[] httpGetBytes(String url) throws Exception{
-        OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder().url(url).build();
-        Response response = client.newCall(request).execute();
+        Response response = mOkHttpClient.newCall(request).execute();
         if(!response.isSuccessful()){
             throw new RuntimeException("http get request failed");
         }

@@ -146,6 +146,6 @@ public class MainActivity extends BaseWebViewActivity {
     }
 
     public void loginActivity(View view) {
-        startActivity(new Intent(this,TestLoginActivity.class));
+        startActivity(new Intent(this,TestPushUrlActivity.class));
     }
 }
