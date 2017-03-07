@@ -1,5 +1,6 @@
 package com.cl.slack.danmu;
 
+import android.annotation.SuppressLint;
 import android.support.annotation.LayoutRes;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -8,6 +9,8 @@ import android.webkit.ConsoleMessage;
 import android.webkit.JsResult;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
+import android.widget.ScrollView;
+import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -24,6 +27,7 @@ public abstract class BaseWebViewActivity extends AppCompatActivity {
     /**
      * 假装 电脑访问 web
      */
+    // phone:  Mozilla/5.0 (Linux; Android 6.0.1; MI 5 Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36
     private final String WEB_USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36";
     protected WebView mWebView;
     private ViewGroup mRootView;
@@ -32,15 +36,28 @@ public abstract class BaseWebViewActivity extends AppCompatActivity {
     public void setContentView(@LayoutRes int layoutResID) {
         super.setContentView(layoutResID);
         mRootView = (ViewGroup)((ViewGroup)findViewById(android.R.id.content)).getChildAt(0);
+        /**
+         * ScrollView 在webview 登录时会引起界面拉长
+         */
+//        if(mRootView instanceof ScrollView){
+//            mRootView = (ViewGroup)mRootView.getChildAt(0);
+//        }
     }
 
+    /**
+     * 加在最上层
+     */
     protected void addWebView(){
-        addWebView(0);
+        addWebView(mRootView.getChildCount());
     }
 
+    @SuppressLint("SetJavaScriptEnabled")
     protected void addWebView(int index) {
         mRootView.addView(mWebView, index);
         mWebView.getSettings().setUserAgentString(WEB_USER_AGENT);
+        mWebView.getSettings().setJavaScriptEnabled(true);
+        mWebView.setHorizontalScrollBarEnabled(false);
+        mWebView.setVerticalScrollBarEnabled(false);
         // test
         mWebView.setWebChromeClient(new WebChromeClient(){
             @Override
@@ -127,6 +144,24 @@ public abstract class BaseWebViewActivity extends AppCompatActivity {
                     //
                 }
             }
+        }
+    }
+
+    protected void showToast(final String msg){
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                Toast.makeText(BaseWebViewActivity.this,msg,Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
+    @Override
+    public void onBackPressed() {
+        if(mWebView.canGoBack()){
+            mWebView.goBack();
+        }else {
+            super.onBackPressed();
         }
     }
 }

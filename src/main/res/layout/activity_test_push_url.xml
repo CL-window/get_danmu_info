@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_test_login"
     android:layout_width="match_parent"
@@ -12,12 +12,24 @@
         android:layout_height="match_parent"
         android:background="@android:color/transparent"
         android:orientation="vertical">
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="斗鱼"
-            android:textAllCaps="false"
-            android:onClick="douyu"/>
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="斗鱼 with test cockie"
+                android:textAllCaps="false"
+                android:onClick="douyu"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="斗鱼 with login"
+                android:textAllCaps="false"
+                android:onClick="douyuNeedLogin"/>
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -77,6 +89,13 @@
             android:text="测试webview login"
             android:textAllCaps="false"
             android:onClick="testOther"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="一键清除 cookie"
+            android:textAllCaps="false"
+            android:onClick="clearCookie"/>
     </LinearLayout>
 
-</ScrollView>
+</FrameLayout>
