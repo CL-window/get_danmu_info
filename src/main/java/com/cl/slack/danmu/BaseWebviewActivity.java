@@ -54,7 +54,6 @@ public abstract class BaseWebViewActivity extends AppCompatActivity {
     @SuppressLint("SetJavaScriptEnabled")
     protected void addWebView(int index) {
         mRootView.addView(mWebView, index);
-        mWebView.getSettings().setUserAgentString(WEB_USER_AGENT);
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.setHorizontalScrollBarEnabled(false);
         mWebView.setVerticalScrollBarEnabled(false);
@@ -72,6 +71,10 @@ public abstract class BaseWebViewActivity extends AppCompatActivity {
                 return super.onJsAlert(view, url, message, result);
             }
         });
+    }
+
+    protected void useWebUserAgent(){
+        mWebView.getSettings().setUserAgentString(WEB_USER_AGENT);
     }
 
     @Override

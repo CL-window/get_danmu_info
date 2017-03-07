@@ -18,7 +18,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="斗鱼 with test cockie"
+                android:text="斗鱼 with cockie"
                 android:textAllCaps="false"
                 android:onClick="douyu"/>
 
@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:text="斗鱼 with login"
                 android:textAllCaps="false"
-                android:onClick="douyuNeedLogin"/>
+                android:onClick="douyuWithLogin"/>
 
         </LinearLayout>
 
@@ -37,7 +37,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="龙珠 add cookie"
+                android:text="龙珠 with cookie"
                 android:textAllCaps="false"
                 android:onClick="longzhu"/>
             <Button
@@ -55,12 +55,24 @@
             android:textAllCaps="false"
             android:onClick="xiongmao"/>
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="全民"
-            android:textAllCaps="false"
-            android:onClick="quanmin"/>
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全民 with cookie"
+                android:textAllCaps="false"
+                android:onClick="quanmin"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全民 with login"
+                android:textAllCaps="false"
+                android:onClick="quanminWithLogin"/>
+
+        </LinearLayout>
 
         <Button
             android:layout_width="match_parent"
