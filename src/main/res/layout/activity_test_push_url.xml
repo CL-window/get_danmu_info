@@ -74,12 +74,23 @@
 
         </LinearLayout>
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="战旗"
-            android:textAllCaps="false"
-            android:onClick="zhanqi"/>
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="战旗 with cookie"
+                android:textAllCaps="false"
+                android:onClick="zhanqi"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="战旗 with login"
+                android:textAllCaps="false"
+                android:onClick="zhanqiWithLogin"/>
+        </LinearLayout>
 
         <Button
             android:layout_width="match_parent"

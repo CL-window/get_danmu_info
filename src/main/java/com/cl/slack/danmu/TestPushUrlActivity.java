@@ -46,6 +46,7 @@ public class TestPushUrlActivity extends BaseWebViewActivity {
     private final String mDouYuLoginUrl = "http://passport.douyu.com/iframe/index";
     private final String mLongZhuLoginUrl = "http://login.plu.cn/portable/login";
     private final String mQuanMinLoginUrl = "http://m.quanmin.tv/login";
+    private final String mZhanQiLoginUrl = "https://www.zhanqi.tv";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -158,6 +159,21 @@ public class TestPushUrlActivity extends BaseWebViewActivity {
         }
     }
 
+    public void zhanqiWithLogin(View view) {
+    }
+
+    private void getZhanqiPushUrl(String cookie){
+        if(mStopPush){
+            mStopPush = false;
+            mPushUrl.stopLivePush();
+        }else {
+            mStopPush = true;
+            mPushUrl = new ZhanqiPushUrl();
+            mPushUrl.addCookie(mZhanqiCookie);
+            mPushUrl.setPushUrlCallback(mPushUrlCallback);
+            mPushUrl.startLivePush();
+        }
+    }
     public void huya(View view) {
         if(mStopPush){
             mStopPush = false;
@@ -401,7 +417,6 @@ public class TestPushUrlActivity extends BaseWebViewActivity {
              *
              */
             Log.i(TAG,"checkCookie  url :"+  url +" cookie:"+  cookie);
-            SharedPreferences cookieSP = getSharedPreferences(mCookieFile, MODE_PRIVATE);
             if(url.contains("douyu.com") && cookie.startsWith("PHPSESSID")){
                 if(mLoginCallback != null)
                     mLoginCallback.onLoginSuccess(mDouYuLoginUrl,cookie);
