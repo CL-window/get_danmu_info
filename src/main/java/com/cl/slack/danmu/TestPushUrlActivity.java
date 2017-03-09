@@ -14,13 +14,13 @@ import android.widget.FrameLayout;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.cl.slack.danmu.login.DouyuPushUrl;
-import com.cl.slack.danmu.login.HuyaPushUrl;
-import com.cl.slack.danmu.login.LongzhuPushUrl;
-import com.cl.slack.danmu.login.PandaPushUrl;
-import com.cl.slack.danmu.login.PushUrl;
-import com.cl.slack.danmu.login.QuanminPushUrl;
-import com.cl.slack.danmu.login.ZhanqiPushUrl;
+import com.cl.slack.danmu.pushurl.DouyuPushUrl;
+import com.cl.slack.danmu.pushurl.HuyaPushUrl;
+import com.cl.slack.danmu.pushurl.LongzhuPushUrl;
+import com.cl.slack.danmu.pushurl.PandaPushUrl;
+import com.cl.slack.danmu.pushurl.PushUrl;
+import com.cl.slack.danmu.pushurl.QuanminPushUrl;
+import com.cl.slack.danmu.pushurl.ZhanqiPushUrl;
 
 import java.util.Map;
 
@@ -128,6 +128,19 @@ public class TestPushUrlActivity extends BaseWebViewActivity {
         }
     }
 
+    private void getXiongmaoPushUrl(String cookie){
+        if (mStopPush) {
+            mStopPush = false;
+            mPushUrl.stopLivePush();
+        } else {
+            mStopPush = true;
+            mPushUrl = new PandaPushUrl();
+            mPushUrl.addCookie(cookie);
+            mPushUrl.setPushUrlCallback(mPushUrlCallback);
+            mPushUrl.startLivePush();
+        }
+    }
+
     /**
      * 不需要开启或关闭直播  done
      */
@@ -189,6 +202,23 @@ public class TestPushUrlActivity extends BaseWebViewActivity {
 
     public void sixjianfang(View view) {
 
+    }
+
+    private void getHuyaPushUrl(String cookie) {
+        if(mStopPush){
+            mStopPush = false;
+            mPushUrl.stopLivePush();
+        }else {
+            mStopPush = true;
+            mPushUrl = new HuyaPushUrl();
+            mPushUrl.addCookie(cookie);
+            mPushUrl.setPushUrlCallback(mPushUrlCallback);
+            mPushUrl.startLivePush();
+        }
+    }
+
+    private void getSixRoomPushUrl(String cookie) {
+        //
     }
 
     public void testOther(View view) {

@@ -18,7 +18,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".TestLoginActivity" />
-        <activity android:name=".TestPushUrlActivity"></activity>
+        <activity android:name=".TestPushUrlActivity" />
+        <activity android:name=".GetCookieActivity"/>
+        <activity android:name=".GetCookieLoginActivity"/>
     </application>
 
 </manifest>

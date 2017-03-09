@@ -1,0 +1,13 @@
+html, body {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+}
+
+.ruc-dialog-container{
+    background: #fff !important;
+}
+
+.ruc-dialog-header, .ruc-dialog-footer{
+    display: none !important;
+}

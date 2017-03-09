@@ -1,0 +1,19 @@
+
+
+html, body{
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+}
+#userLoginBox{
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    z-index: 200000 !important;
+}
+.regist-link, .js-close, .input-labels{
+    display: none !important;
+}

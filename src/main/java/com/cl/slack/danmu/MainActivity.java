@@ -146,6 +146,10 @@ public class MainActivity extends BaseWebViewActivity {
     }
 
     public void loginActivity(View view) {
+        startActivity(new Intent(this,GetCookieActivity.class));
+    }
+
+    public void loginSlackActivity(View view) {
         startActivity(new Intent(this,TestPushUrlActivity.class));
     }
 }

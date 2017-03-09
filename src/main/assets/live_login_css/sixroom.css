@@ -1,0 +1,58 @@
+em.close{
+    display: none !important;
+}
+.loginMask_box{
+    display: none !important;
+}
+.loginBox{
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+html, body{
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+}
+.loginMask{
+    width: 100% !important;
+    height: 100% !important;
+    position: fixed !important;
+}
+div.middle{
+    display: none !important;
+}
+#page_mask{
+    background-color: #fff !important;
+    opacity: 1.0 !important;
+}
+
+.login-nav{
+    display: none !important;
+}
+div.side{
+    float: none !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.loginWith{
+    display: inline-block !important;
+    margin: 10px 20px 0px 0 !important;
+}
+div.side span{
+    text-align: center !important;
+    padding: 0 !important;
+}
+div.side p{
+    padding: 26px 20px 30px !important;
+}
+div.vlogin{
+    padding: 0 0 0 20px !important;
+}
+
+.login_event_link{
+    display: none !important;
+}

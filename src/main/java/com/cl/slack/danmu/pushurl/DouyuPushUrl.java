@@ -1,4 +1,4 @@
-package com.cl.slack.danmu.login;
+package com.cl.slack.danmu.pushurl;
 
 import com.cl.slack.danmu.live_chart.HttpUtils;
 

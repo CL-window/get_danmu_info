@@ -72,5 +72,12 @@
         android:layout_marginTop="50dp"
         android:textAllCaps="false"
         android:onClick="loginActivity"
-        android:text="login"/>
+        android:text="xiaozhuai login"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:onClick="loginSlackActivity"
+        android:text="slack login"/>
 </LinearLayout>

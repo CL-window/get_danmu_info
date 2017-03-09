@@ -1,0 +1,36 @@
+
+html, body {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+}
+.login-box {
+    width: 100% !important;
+    height: 100% !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 !important;
+    box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+    border-radius: 0 !important;
+}
+.close{
+    display: none !important;
+}
+.login-hd{
+    display: none !important;
+}
+.login-wran-tip{
+    display: none;
+}
+.login-sidebar{
+    border-left: 0 solid #ffffff !important;
+    position: static !important;
+    padding: 0 !important;
+}
+.lnFindPass{
+    display: none !important;
+}
+.login{
+    background: #fff;
+}
